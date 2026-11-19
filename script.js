@@ -66,7 +66,7 @@ const COURSES_DATA = [
         formattedFee: "₹34,999",
         currency: "INR",
         badge: "Hot Career",
-        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/ai.png",
         description: "Comprehensive curriculum mastering Generative AI, Deep Learning architectures, Neural Networks, NLP, and LLM orchestration with Python.",
         overview: "Comprehensive curriculum mastering Generative AI, Deep Learning architectures, Neural Networks, NLP, and LLM orchestration with Python.",
         skills: ["Python", "PyTorch", "TensorFlow", "OpenAI API", "LangChain", "HuggingFace", "Neural Networks"],
@@ -101,7 +101,7 @@ const COURSES_DATA = [
         formattedFee: "₹34,999",
         currency: "INR",
         badge: "High Demand",
-        image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/ml.jpeg",
         description: "Master supervised and unsupervised learning algorithms, statistical data wrangling, feature engineering, and production MLOps deployment.",
         overview: "Master supervised and unsupervised learning algorithms, statistical data wrangling, feature engineering, and production MLOps deployment.",
         skills: ["Python", "Scikit-Learn", "Pandas", "NumPy", "XGBoost", "MLflow", "Docker", "Feature Engineering"],
@@ -136,7 +136,7 @@ const COURSES_DATA = [
         formattedFee: "₹32,999",
         currency: "INR",
         badge: "Executive Track",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80",
+        image:  "./assets/home.images/home.images/data.png",
         description: "Transform multi-million row datasets into high-impact corporate intelligence using advanced SQL, Python analytics, Power BI, and statistical modeling.",
         overview: "Transform multi-million row datasets into high-impact corporate intelligence using advanced SQL, Python analytics, Power BI, and statistical modeling.",
         skills: ["Advanced SQL", "Power BI", "Python Pandas", "Tableau", "DAX Studio", "Data Warehousing", "ETL Pipelines"],
@@ -171,7 +171,7 @@ const COURSES_DATA = [
         formattedFee: "₹24,999",
         currency: "INR",
         badge: "Foundation Pillar",
-        image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/python.png",
         description: "Master modern Python programming from algorithmic fundamentals to object-oriented architectures, web scraping, and automated script engineering.",
         overview: "Master modern Python programming from algorithmic fundamentals to object-oriented architectures, web scraping, and automated script engineering.",
         skills: ["Core Python 3.12+", "OOP Concepts", "Data Structures", "Web Scraping (BeautifulSoup)", "REST APIs", "Unit Testing", "Automation"],
@@ -206,7 +206,7 @@ const COURSES_DATA = [
         formattedFee: "₹22,999",
         currency: "INR",
         badge: "Business Essential",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80",
+        image:"./assets/home.images/home.images/excel.png", 
         description: "The gold-standard trio for corporate business intelligence. Master dynamic Excel modeling, nested SQL querying, and enterprise Power BI reporting.",
         overview: "The gold-standard trio for corporate business intelligence. Master dynamic Excel modeling, nested SQL querying, and enterprise Power BI reporting.",
         skills: ["Excel Power Query", "Advanced VLOOKUP/XLOOKUP", "Pivot Tables", "SQL Window Functions", "Power BI", "DAX Formulas", "KPI Visualizations"],
@@ -245,7 +245,7 @@ const COURSES_DATA = [
         formattedFee: "₹29,999",
         currency: "INR",
         badge: "Core Engineering",
-        image: "https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/web-develop.jpg",
         description: "Build modern, accessible, high-performance web applications with semantic HTML5, modern CSS3/Tailwind, JavaScript ES6+, and React.",
         overview: "Build modern, accessible, high-performance web applications with semantic HTML5, modern CSS3/Tailwind, JavaScript ES6+, and React.",
         skills: ["HTML5", "CSS3 / Tailwind", "JavaScript (ES6+)", "React.js", "REST APIs", "Node.js Basics", "Git / GitHub"],
@@ -280,7 +280,7 @@ const COURSES_DATA = [
         formattedFee: "₹29,999",
         currency: "INR",
         badge: "Mobile Specialist",
-        image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/app.jpg",
         description: "Engineer native-performance cross-platform mobile apps for Android and iOS using Flutter, Dart, Firebase authentication, and SQLite.",
         overview: "Engineer native-performance cross-platform mobile apps for Android and iOS using Flutter, Dart, Firebase authentication, and SQLite.",
         skills: ["Flutter", "Dart", "Firebase Auth & Firestore", "State Management (Provider/Bloc)", "Native Device APIs", "REST APIs", "App Store Publishing"],
@@ -315,7 +315,7 @@ const COURSES_DATA = [
         formattedFee: "₹32,999",
         currency: "INR",
         badge: "Enterprise Flagship",
-        image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/software.jpg",
         description: "Comprehensive software engineering career track: Java 17, Spring Boot microservices, PostgreSQL, clean architecture, Docker, and system design.",
         overview: "Comprehensive software engineering career track: Java 17, Spring Boot microservices, PostgreSQL, clean architecture, Docker, and system design.",
         skills: ["Java 17+", "Spring Boot", "Microservices", "PostgreSQL", "Docker", "RESTful APIs", "System Design", "JUnit & Mockito"],
@@ -350,7 +350,7 @@ const COURSES_DATA = [
         formattedFee: "₹29,999",
         currency: "INR",
         badge: "Top Placement",
-        image: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/full.png",
         description: "Master full-cycle web engineering across the MERN stack (MongoDB, Express.js, React.js, Node.js), TypeScript, REST APIs, and cloud deployments.",
         overview: "Master full-cycle web engineering across the MERN stack (MongoDB, Express.js, React.js, Node.js), TypeScript, REST APIs, and cloud deployments.",
         skills: ["MongoDB", "Express.js", "React.js", "Node.js", "TypeScript", "REST APIs", "JWT Auth", "Docker"],
@@ -385,7 +385,7 @@ const COURSES_DATA = [
         formattedFee: "₹24,999",
         currency: "INR",
         badge: "Enterprise Standard",
-        image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/java.jpeg",
         description: "Master foundational to advanced Java: OOP principles, memory mechanics, collections framework, multithreading, JDBC, and unit testing.",
         overview: "Master foundational to advanced Java: OOP principles, memory mechanics, collections framework, multithreading, JDBC, and unit testing.",
         skills: ["Core Java 17", "OOP Paradigms", "Collections Framework", "Multithreading & Concurrency", "JDBC", "File Handling", "JUnit"],
@@ -420,7 +420,7 @@ const COURSES_DATA = [
         formattedFee: "₹29,999",
         currency: "INR",
         badge: "Rapid Backend",
-        image: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/django.jpeg",
         description: "Build robust, secure, and rapid enterprise web platforms using Python, Django, Django REST Framework, PostgreSQL, and Celery.",
         overview: "Build robust, secure, and rapid enterprise web platforms using Python, Django, Django REST Framework, PostgreSQL, and Celery.",
         skills: ["Python", "Django Framework", "Django REST Framework (DRF)", "PostgreSQL", "Celery & Redis", "JWT Authentication", "Docker"],
@@ -459,7 +459,7 @@ const COURSES_DATA = [
         formattedFee: "₹29,999",
         currency: "INR",
         badge: "Defense Specialist",
-        image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=600&q=80",
+        image:  "./assets/home.images/home.images/cybersecurity.jpg",
         description: "Learn ethical hacking, penetration testing, network defense, SIEM event monitoring, OWASP Top 10 vulnerabilities, and digital forensics.",
         overview: "Learn ethical hacking, penetration testing, network defense, SIEM event monitoring, OWASP Top 10 vulnerabilities, and digital forensics.",
         skills: ["Ethical Hacking", "Kali Linux", "Wireshark", "Metasploit", "Burp Suite", "OWASP Top 10", "Network Security", "SIEM (Splunk)"],
@@ -494,7 +494,7 @@ const COURSES_DATA = [
         formattedFee: "₹29,999",
         currency: "INR",
         badge: "Cloud Certified",
-        image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/cloud.jpeg",
         description: "Architect and manage enterprise cloud infrastructures across AWS and Microsoft Azure. Learn virtualization, IAM security, VPC, and serverless.",
         overview: "Architect and manage enterprise cloud infrastructures across AWS and Microsoft Azure. Learn virtualization, IAM security, VPC, and serverless.",
         skills: ["AWS Solutions Architecture", "Microsoft Azure", "Virtual Private Cloud (VPC)", "IAM Security", "Terraform Basics", "Serverless Lambda", "Cost Governance"],
@@ -529,7 +529,7 @@ const COURSES_DATA = [
         formattedFee: "₹29,999",
         currency: "INR",
         badge: "High Growth",
-        image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/devops.jpeg",
         description: "Bridge the gap between development and operations: Linux, Docker, Kubernetes, Jenkins CI/CD, Terraform IaC, Ansible, and Prometheus monitoring.",
         overview: "Bridge the gap between development and operations: Linux, Docker, Kubernetes, Jenkins CI/CD, Terraform IaC, Ansible, and Prometheus monitoring.",
         skills: ["Docker Containerization", "Kubernetes Orchestration", "CI/CD Pipelines (Jenkins)", "Terraform (IaC)", "Ansible", "Linux Shell Scripting", "Prometheus & Grafana"],
@@ -568,7 +568,7 @@ const COURSES_DATA = [
         formattedFee: "₹19,999",
         currency: "INR",
         badge: "Creative Excellence",
-        image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=600&q=80",
+        image:  "./assets/home.images/home.images/ui.png",
         description: "Create human-centered, high-converting digital products. Master Figma, wireframing, interactive prototyping, user research, and design systems.",
         overview: "Create human-centered, high-converting digital products. Master Figma, wireframing, interactive prototyping, user research, and design systems.",
         skills: ["Figma Mastery", "User Research & Personas", "Wireframing & Flowcharts", "Interactive Prototyping", "Design Systems & Auto-Layout", "Usability Testing", "UI Glassmorphism"],
@@ -603,7 +603,7 @@ const COURSES_DATA = [
         formattedFee: "₹18,999",
         currency: "INR",
         badge: "Growth Engine",
-        image: "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/digital.jpg",
         description: "Master multi-channel performance marketing: Search Engine Optimization (SEO), Google Search & Display Ads, Meta Ad Manager, GA4, and funnels.",
         overview: "Master multi-channel performance marketing: Search Engine Optimization (SEO), Google Search & Display Ads, Meta Ad Manager, GA4, and funnels.",
         skills: ["Technical SEO", "Google Ads (PPC)", "Meta Ads Manager", "Google Analytics 4 (GA4)", "Conversion Rate Optimization", "Content Strategy", "Email Automation"],
@@ -638,7 +638,7 @@ const COURSES_DATA = [
         formattedFee: "₹23,999",
         currency: "INR",
         badge: "QA Specialist",
-        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/sta.jpeg",
         description: "Master manual QA methodologies alongside test automation using Java, Selenium WebDriver, TestNG, Postman API testing, and Cucumber BDD.",
         overview: "Master manual QA methodologies alongside test automation using Java, Selenium WebDriver, TestNG, Postman API testing, and Cucumber BDD.",
         skills: ["Manual QA & Test Cases", "Selenium WebDriver", "Java for QA", "TestNG Framework", "Postman & RestAssured", "Cucumber BDD", "JIRA & Agile"],
@@ -677,7 +677,7 @@ const COURSES_DATA = [
         formattedFee: "₹26,499",
         currency: "INR",
         badge: "Industry Standard",
-        image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/autocad.jpeg",
         description: "Master 2D drafting and mechanical drawing standards with AutoCAD. Learn GD&T, layer standards, orthographic projections, and bill of materials.",
         overview: "Master 2D drafting and mechanical drawing standards with AutoCAD. Learn GD&T, layer standards, orthographic projections, and bill of materials.",
         skills: ["AutoCAD Mechanical", "Geometric Dimensioning & Tolerancing (GD&T)", "Orthographic & Isometric Projections", "Assembly Drawing", "BOM Generation", "Engineering Standards (ISO/ASME)"],
@@ -712,7 +712,7 @@ const COURSES_DATA = [
         formattedFee: "₹28,799",
         currency: "INR",
         badge: "Core Mechanical",
-        image: "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/cad.jpeg",
         description: "Comprehensive 3D parametric design: model complex mechanical components, multi-part assemblies, interference detection, and sheet metal fabrication.",
         overview: "Comprehensive 3D parametric design: model complex mechanical components, multi-part assemblies, interference detection, and sheet metal fabrication.",
         skills: ["3D Parametric CAD", "Part Modeling", "Assembly Kinematics", "Interference Detection", "Sheet Metal Design", "Drafting Conversion"],
@@ -782,7 +782,7 @@ const COURSES_DATA = [
         formattedFee: "₹24,999",
         currency: "INR",
         badge: "Product Design",
-        image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/solid.jpeg",
         description: "Master SolidWorks parametric solid modeling, weldments, mold design, coupled with Finite Element Analysis (FEA) structural simulations.",
         overview: "Master SolidWorks parametric solid modeling, weldments, mold design, coupled with Finite Element Analysis (FEA) structural simulations.",
         skills: ["SolidWorks 3D Modeling", "FEA Structural Analysis", "Von Mises Stress", "Factor of Safety Optimization", "Weldments & Sheet Metal", "Motion Study"],
@@ -817,7 +817,7 @@ const COURSES_DATA = [
         formattedFee: "₹29,999",
         currency: "INR",
         badge: "Advanced CAE",
-        image: "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/ansys.png",
         description: "High-end Computer-Aided Engineering (CAE): ANSYS Mechanical FEA, static structural, modal analysis, thermal dissipation, and Computational Fluid Dynamics (CFD).",
         overview: "High-end Computer-Aided Engineering (CAE): ANSYS Mechanical FEA, static structural, modal analysis, thermal dissipation, and Computational Fluid Dynamics (CFD).",
         skills: ["ANSYS Workbench", "Finite Element Analysis (FEA)", "Computational Fluid Dynamics (CFD)", "Meshing Quality & Inflation", "Modal Analysis", "Thermal Transfer"],
@@ -852,7 +852,7 @@ const COURSES_DATA = [
         formattedFee: "₹22,499",
         currency: "INR",
         badge: "Precision Shop",
-        image: "https://images.unsplash.com/photo-1565043666747-69f6646db940?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/cnc.jpeg",
         description: "Master modern computer numerical control manufacturing: manual G-Code and M-Code programming, CNC milling, CNC turning, tool selection, and CAM simulation.",
         overview: "Master modern computer numerical control manufacturing: manual G-Code and M-Code programming, CNC milling, CNC turning, tool selection, and CAM simulation.",
         skills: ["G-Code & M-Code", "CNC Milling (VMC)", "CNC Lathe Turning", "CAM Programming", "Toolpath Optimization", "Cutter Compensation", "Metrology"],
@@ -887,7 +887,7 @@ const COURSES_DATA = [
         formattedFee: "₹22,999",
         currency: "INR",
         badge: "NextGen Tech",
-        image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/3d.jpeg",
         description: "Explore the modern frontier of additive manufacturing: FDM, SLA, and SLS technologies, slicing optimization, generative design, and rapid prototyping.",
         overview: "Explore the modern frontier of additive manufacturing: FDM, SLA, and SLS technologies, slicing optimization, generative design, and rapid prototyping.",
         skills: ["Additive Manufacturing Technologies", "FDM & SLA Slicing (Cura/Prusa)", "Design for Additive Manufacturing (DfAM)", "Topology Optimization", "Material Properties", "Post-Processing"],
@@ -922,7 +922,7 @@ const COURSES_DATA = [
         formattedFee: "₹29,999",
         currency: "INR",
         badge: "Smart Factory",
-        image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/industry robo.jpeg",
         description: "Automate modern factory floors: PLC ladder logic, SCADA supervision, pneumatics, sensor integration, and industrial articulated robotic arm programming.",
         overview: "Automate modern factory floors: PLC ladder logic, SCADA supervision, pneumatics, sensor integration, and industrial articulated robotic arm programming.",
         skills: ["PLC Programming (Siemens/Allen-Bradley)", "Ladder Logic", "SCADA Architecture", "Industrial Robotics (ABB/KUKA)", "Pneumatics & Hydraulics", "Sensor Interfacing"],
@@ -957,7 +957,7 @@ const COURSES_DATA = [
         formattedFee: "₹28,499",
         currency: "INR",
         badge: "Clean Mobility",
-        image: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/ev for mech.png",
         description: "Tailored EV engineering for mechanical disciplines: battery pack structural housing, liquid thermal cooling plates, powertrain mounts, and crashworthiness.",
         overview: "Tailored EV engineering for mechanical disciplines: battery pack structural housing, liquid thermal cooling plates, powertrain mounts, and crashworthiness.",
         skills: ["EV Battery Enclosure Design", "Battery Thermal Management (BTMS)", "Electric Motor Mechanical Mounts", "Crash Simulation (FEA)", "Lightweight Materials", "Powertrain Layout"],
@@ -992,7 +992,7 @@ const COURSES_DATA = [
         formattedFee: "₹19,999",
         currency: "INR",
         badge: "Six Sigma",
-        image: "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/manufacture.png",
         description: "Drive zero-defect manufacturing: Statistical Process Control (SPC), Six Sigma DMAIC, Lean manufacturing, root cause analysis, and metrology.",
         overview: "Drive zero-defect manufacturing: Statistical Process Control (SPC), Six Sigma DMAIC, Lean manufacturing, root cause analysis, and metrology.",
         skills: ["Statistical Process Control (SPC)", "Six Sigma DMAIC", "Quality Control Tools", "Root Cause Analysis (Fishbone/5-Why)", "Lean Manufacturing & 5S", "Metrology & CMM"],
@@ -1030,7 +1030,7 @@ const COURSES_DATA = [
         formattedFee: "₹27,999",
         currency: "INR",
         badge: "Electric Mobility",
-        image: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/ev.jpeg",
         description: "Comprehensive electric mobility engineering: high-voltage architectures, BLDC & PMSM motors, traction inverters, regenerative braking, and chargers.",
         overview: "Comprehensive electric mobility engineering: high-voltage architectures, BLDC & PMSM motors, traction inverters, regenerative braking, and chargers.",
         skills: ["EV Powertrain Design", "PMSM & BLDC Traction Motors", "Motor Inverters", "Regenerative Braking", "High-Voltage Safety", "Charging Standards (CCS/CHAdeMO)"],
@@ -1065,7 +1065,7 @@ const COURSES_DATA = [
         formattedFee: "₹27,999",
         currency: "INR",
         badge: "Automotive Styling",
-        image: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/automative.jpeg",
         description: "Industrial automotive design in CATIA V5: Body-in-White (BIW) design, aesthetic Class-A curvature, plastic interior trims, and packaging ergonomics.",
         overview: "Industrial automotive design in CATIA V5: Body-in-White (BIW) design, aesthetic Class-A curvature, plastic interior trims, and packaging ergonomics.",
         skills: ["Automotive Body-in-White (BIW)", "Class-A Surface Modeling", "Plastic Trim Design", "Packaging Studies", "Draft Angle Analysis", "Bumper & Fascia Design"],
@@ -1100,7 +1100,7 @@ const COURSES_DATA = [
         formattedFee: "₹32,999",
         currency: "INR",
         badge: "Chassis & Dynamics",
-        image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/automotive cad using solid.jpeg",
         description: "Comprehensive 30-week master track: model vehicle spaceframes, multi-link suspension kinematics, steering geometry, and structural chassis crash simulation.",
         overview: "Comprehensive 30-week master track: model vehicle spaceframes, multi-link suspension kinematics, steering geometry, and structural chassis crash simulation.",
         skills: ["Tubular Spaceframe Design", "Double-Wishbone Suspension", "Ackermann Steering Geometry", "Chassis Torsional Rigidity", "SolidWorks Motion", "FEA Crash Simulation"],
@@ -1170,7 +1170,7 @@ const COURSES_DATA = [
         formattedFee: "₹27,999",
         currency: "INR",
         badge: "Dual Powertrain",
-        image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/hybrid.png",
         description: "Master modern hybrid vehicle powertrain architectures: Series, Parallel, Series-Parallel power split devices, energy management, and regenerative control.",
         overview: "Master modern hybrid vehicle powertrain architectures: Series, Parallel, Series-Parallel power split devices, energy management, and regenerative control.",
         skills: ["Hybrid Powertrain Architectures", "Power Split Planetary Devices", "Dual-Source Energy Management", "ICE & Motor Blending", "Regenerative Braking", "Hybrid Battery Packs"],
@@ -1205,7 +1205,7 @@ const COURSES_DATA = [
         formattedFee: "₹22,999",
         currency: "INR",
         badge: "ECU Diagnostics",
-        image: "https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/automative trouble.jpeg",
         description: "Master modern electronic vehicle troubleshooting: OBD-II scanners, ECU Diagnostic Trouble Codes (DTC), CAN bus communication tracing, and sensor diagnostics.",
         overview: "Master modern electronic vehicle troubleshooting: OBD-II scanners, ECU Diagnostic Trouble Codes (DTC), CAN bus communication tracing, and sensor diagnostics.",
         skills: ["OBD-II Scanning", "Diagnostic Trouble Codes (DTC)", "CAN Bus Analysis", "Automotive Oscilloscopes", "Sensor Diagnostics (O2, MAF, Crank)", "Wiring Harness Tracing"],
@@ -1240,7 +1240,7 @@ const COURSES_DATA = [
         formattedFee: "₹29,999",
         currency: "INR",
         badge: "Critical EV Core",
-        image: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/baterry.jpeg",
         description: "The core intelligence of every EV: cell voltage monitoring, passive/active cell balancing, State of Charge (SoC) Kalman filters, and thermal runaway prevention.",
         overview: "The core intelligence of every EV: cell voltage monitoring, passive/active cell balancing, State of Charge (SoC) Kalman filters, and thermal runaway prevention.",
         skills: ["BMS Hardware Architecture", "State of Charge (SoC) Estimation", "State of Health (SoH)", "Active & Passive Cell Balancing", "Thermal Runaway Protection", "CAN Communication"],
@@ -1275,7 +1275,7 @@ const COURSES_DATA = [
         formattedFee: "₹22,999",
         currency: "INR",
         badge: "IATF 16949",
-        image: "https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/quality.jpeg",
         description: "Master global automotive quality standards: IATF 16949, APQP, PPAP submissions, Design & Process FMEA risk evaluations, and MSA measurement studies.",
         overview: "Master global automotive quality standards: IATF 16949, APQP, PPAP submissions, Design & Process FMEA risk evaluations, and MSA measurement studies.",
         skills: ["IATF 16949 Standards", "APQP Framework", "PPAP Level 1-5 Submissions", "FMEA (DFMEA & PFMEA)", "Measurement System Analysis (MSA)", "Control Plans"],
@@ -1310,7 +1310,7 @@ const COURSES_DATA = [
         formattedFee: "₹29,999",
         currency: "INR",
         badge: "Handling & Ride",
-        image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/vehicle dynamic.jpeg",
         description: "Simulate and optimize vehicle cornering, ride comfort, and stability: Pacejka tire models, quarter-car/half-car bounce/pitch, understeer gradients, and roll stability.",
         overview: "Simulate and optimize vehicle cornering, ride comfort, and stability: Pacejka tire models, quarter-car/half-car bounce/pitch, understeer gradients, and roll stability.",
         skills: ["Vehicle Dynamics Modeling", "Pacejka 'Magic Formula' Tire Model", "Quarter-Car & Half-Car Ride Models", "Understeer / Oversteer Gradients", "Roll Center Dynamics", "MATLAB / CarSim"],
@@ -1345,7 +1345,7 @@ const COURSES_DATA = [
         formattedFee: "₹32,999",
         currency: "INR",
         badge: "Autonomous Drive",
-        image: "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/adas.jpg",
         description: "Engineer the future of autonomous mobility: Radar, Camera, and Lidar sensor fusion, computer vision for lane detection, AEB algorithms, and adaptive cruise control.",
         overview: "Engineer the future of autonomous mobility: Radar, Camera, and Lidar sensor fusion, computer vision for lane detection, AEB algorithms, and adaptive cruise control.",
         skills: ["Sensor Fusion (Radar/Lidar/Camera)", "Computer Vision (OpenCV)", "Adaptive Cruise Control (ACC)", "Autonomous Emergency Braking (AEB)", "Lane Keeping Assist (LKA)", "ROS 2"],
@@ -1383,7 +1383,7 @@ const COURSES_DATA = [
         formattedFee: "₹37,999",
         currency: "INR",
         badge: "Flagship Frontier",
-        image: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/ai in automative.jpeg",
         description: "36-week flagship frontier program: train deep neural networks on automotive camera streams, edge AI deployment on NVIDIA Jetson, predictive maintenance, and reinforcement learning.",
         overview: "36-week flagship frontier program: train deep neural networks on automotive camera streams, edge AI deployment on NVIDIA Jetson, predictive maintenance, and reinforcement learning.",
         skills: ["Automotive Deep Learning", "Edge AI (NVIDIA Jetson)", "YOLO Object Detection", "Predictive Fleet Maintenance", "Reinforcement Learning", "TensorRT Optimization"],
@@ -1453,7 +1453,7 @@ const COURSES_DATA = [
         formattedFee: "₹34,999",
         currency: "INR",
         badge: "Virtual Factory",
-        image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/twin.jpeg",
         description: "Bridge the physical and virtual worlds: connect real-time machine IoT telemetry to high-fidelity 3D digital twins for simulation, diagnostics, and predictive operations.",
         overview: "Bridge the physical and virtual worlds: connect real-time machine IoT telemetry to high-fidelity 3D digital twins for simulation, diagnostics, and predictive operations.",
         skills: ["Digital Twin Architecture", "IoT Telemetry Streaming (MQTT)", "3D Physical Simulation", "Unity / Unreal Industrial Visualization", "Predictive Maintenance", "Cloud Data Lake"],
@@ -1488,7 +1488,7 @@ const COURSES_DATA = [
         formattedFee: "₹31,999",
         currency: "INR",
         badge: "Connected Factory",
-        image: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/iot.png",
         description: "Connect shopfloor machinery to cloud analytics: ESP32 edge microcontrollers, industrial sensors, MQTT protocols, AWS IoT Core, and real-time alerts.",
         overview: "Connect shopfloor machinery to cloud analytics: ESP32 edge microcontrollers, industrial sensors, MQTT protocols, AWS IoT Core, and real-time alerts.",
         skills: ["Industrial IoT Architecture", "MQTT & CoAP Protocols", "ESP32 & Raspberry Pi", "Sensor Interfacing (Current/Vibration/Temp)", "AWS IoT Core", "Node-RED", "Time-Series Databases"],
@@ -1523,7 +1523,7 @@ const COURSES_DATA = [
         formattedFee: "₹31,999",
         currency: "INR",
         badge: "NextGen Enterprise",
-        image: "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/industry4.0.png",
         description: "Drive digital factory transformation: integrate shopfloor PLCs with enterprise cloud systems via OPC-UA, Manufacturing Execution Systems (MES), and OEE optimization.",
         overview: "Drive digital factory transformation: integrate shopfloor PLCs with enterprise cloud systems via OPC-UA, Manufacturing Execution Systems (MES), and OEE optimization.",
         skills: ["Industry 4.0 Pillars", "OPC-UA Communication", "Manufacturing Execution Systems (MES)", "Overall Equipment Effectiveness (OEE)", "Cloud SCADA", "ERP Integration"],
@@ -1558,7 +1558,7 @@ const COURSES_DATA = [
         formattedFee: "₹27,999",
         currency: "INR",
         badge: "Computational Tech",
-        image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/python.png",
         description: "Supercharge mechanical engineering with Python: solve thermodynamics and fluid differential equations, automate CAD modeling via scripting, and process FEA logs.",
         overview: "Supercharge mechanical engineering with Python: solve thermodynamics and fluid differential equations, automate CAD modeling via scripting, and process FEA logs.",
         skills: ["Scientific Python (NumPy/SciPy)", "Engineering Mathematics Automation", "Thermodynamic Cycle Simulation", "CAD Scripting (FreeCAD/OpenCASCADE)", "FEA Data Processing", "Matplotlib Engineering Plots"],
@@ -1593,7 +1593,7 @@ const COURSES_DATA = [
         formattedFee: "₹31,999",
         currency: "INR",
         badge: "Model-Based Design",
-        image: "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/matlab.jpeg",
         description: "Master industry-standard Model-Based Design (MBD): closed-loop vehicle control algorithms, Stateflow logic, automatic embedded C-code generation, and MIL/SIL testing.",
         overview: "Master industry-standard Model-Based Design (MBD): closed-loop vehicle control algorithms, Stateflow logic, automatic embedded C-code generation, and MIL/SIL testing.",
         skills: ["MATLAB / Simulink", "Model-Based Design (MBD)", "Stateflow Logic", "Embedded Coder (Auto C-Code)", "MIL / SIL Testing", "PID Controller Tuning", "Powertrain Blockset"],
@@ -1628,7 +1628,7 @@ const COURSES_DATA = [
         formattedFee: "₹34,999",
         currency: "INR",
         badge: "Battery AI",
-        image: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=600&q=80",
+        image: "./assets/home.images/home.images/ev battery.png",
         description: "Machine learning for electric vehicle fleets: predict Remaining Useful Life (RUL), model electrochemical battery degradation, and analyze thermal health from telemetry.",
         overview: "Machine learning for electric vehicle fleets: predict Remaining Useful Life (RUL), model electrochemical battery degradation, and analyze thermal health from telemetry.",
         skills: ["Battery Degradation Modeling", "Remaining Useful Life (RUL) Prediction", "EV Fleet Telemetry Analytics", "Electrochemical Impedance Analysis", "Time-Series Machine Learning", "Python & BigQuery"],
@@ -2729,154 +2729,306 @@ async function submitCourseApplicationAPI(payload) {
 }
 
 // ============================================================
-// EXPLORE OUR CAPABILITIES — SIDE NAVIGATION & SCROLLABLE PATH
+// EXPLORE OUR CAPABILITIES — 3D CINEMATIC CAROUSEL ENGINE
+// Inspired by Reference Image 2 (Stacked 3D Depth, Editorial Glass)
 // ============================================================
 
+let currentCapabilityIndex = 0;
+const TOTAL_CAPABILITIES = 7;
+let isCinematicDragging = false;
+let cinematicDragStartX = 0;
+let cinematicDragCurrentX = 0;
+let cinematicDragThreshold = false;
+
+function rotateCapabilities(direction) {
+    currentCapabilityIndex = (currentCapabilityIndex + direction + TOTAL_CAPABILITIES) % TOTAL_CAPABILITIES;
+    updateCinematicCarousel();
+}
+
+function setCapabilityActive(index) {
+    if (index >= 0 && index < TOTAL_CAPABILITIES) {
+        currentCapabilityIndex = index;
+        updateCinematicCarousel();
+    }
+}
+
+function handleCardClick(index) {
+    if (cinematicDragThreshold) return; // Prevent card click if dragged
+    
+    if (index === currentCapabilityIndex) {
+        // Active center card clicked — browse programs
+        navigateToTab('courses');
+    } else {
+        // Side card clicked — rotate into center focus
+        setCapabilityActive(index);
+    }
+}
+
+// Backward compatibility alias for any existing caller
 function scrollArcGallery(direction) {
-    const viewport = document.getElementById('capabilities-arc-viewport');
-    if (!viewport) return;
-    
-    // Width of card + gap is ~220px to 260px depending on screen
-    const cardWidth = window.innerWidth < 640 ? 190 : (window.innerWidth < 1024 ? 220 : 250);
-    const scrollStep = cardWidth * 1.5;
-    
-    viewport.scrollBy({
-        left: direction * scrollStep,
-        behavior: 'smooth'
-    });
+    rotateCapabilities(direction);
 }
 
-function updateArcScrollProgress() {
-    const viewport = document.getElementById('capabilities-arc-viewport');
-    const thumb = document.getElementById('arc-scroll-path-thumb');
-    const track = document.getElementById('arc-scroll-path-track');
-    const counter = document.getElementById('arc-scroll-counter');
-    const prevSideBtn = document.getElementById('arc-side-prev');
-    const nextSideBtn = document.getElementById('arc-side-next');
-    const prevPathBtn = document.getElementById('arc-path-left-btn');
-    const nextPathBtn = document.getElementById('arc-path-right-btn');
-    
-    if (!viewport || !thumb || !track) return;
-    
-    const maxScroll = viewport.scrollWidth - viewport.clientWidth;
-    const currentScroll = viewport.scrollLeft;
-    
-    if (maxScroll <= 0) {
-        thumb.style.left = '0%';
-        thumb.style.width = '100%';
-        if (prevSideBtn) prevSideBtn.classList.add('is-disabled');
-        if (nextSideBtn) nextSideBtn.classList.add('is-disabled');
-        if (prevPathBtn) prevPathBtn.classList.add('is-disabled');
-        if (nextPathBtn) nextPathBtn.classList.add('is-disabled');
-        return;
-    }
-    
-    // Calculate thumb width and position percentage
-    const visibleRatio = viewport.clientWidth / viewport.scrollWidth;
-    const thumbWidthPercent = Math.max(18, Math.min(45, visibleRatio * 100));
-    thumb.style.width = `${thumbWidthPercent}%`;
-    
-    const scrollRatio = Math.max(0, Math.min(1, currentScroll / maxScroll));
-    const maxThumbLeft = 100 - thumbWidthPercent;
-    const thumbLeft = scrollRatio * maxThumbLeft;
-    thumb.style.left = `${thumbLeft}%`;
-    
-    // Update counter indicator (01 / 07 to 07 / 07)
-    const totalCards = 7;
-    const activeIndex = Math.min(totalCards, Math.max(1, Math.round(scrollRatio * (totalCards - 1)) + 1));
-    if (counter) {
-        counter.textContent = `0${activeIndex} / 0${totalCards}`;
-    }
-    
-    // Toggle active/disabled states on arrow buttons
-    const isAtStart = currentScroll <= 8;
-    const isAtEnd = currentScroll >= maxScroll - 8;
-    
-    if (prevSideBtn) prevSideBtn.classList.toggle('is-disabled', isAtStart);
-    if (prevPathBtn) prevPathBtn.classList.toggle('is-disabled', isAtStart);
-    if (nextSideBtn) nextSideBtn.classList.toggle('is-disabled', isAtEnd);
-    if (nextPathBtn) nextPathBtn.classList.toggle('is-disabled', isAtEnd);
-}
+function updateCinematicCarousel() {
+    const stage = document.getElementById('cinematic-stage');
+    const cards = document.querySelectorAll('.cinematic-card');
+    const dockItems = document.querySelectorAll('.cinematic-dock-item');
+    if (!stage || !cards || cards.length === 0) return;
 
-function initArcScrollControls() {
-    const viewport = document.getElementById('capabilities-arc-viewport');
-    const track = document.getElementById('arc-scroll-path-track');
-    if (!viewport) return;
-    
-    // Update on scroll & resize
-    viewport.addEventListener('scroll', updateArcScrollProgress, { passive: true });
-    window.addEventListener('resize', updateArcScrollProgress);
-    
-    // Track click to jump along the scrollable path
-    if (track) {
-        track.addEventListener('click', (e) => {
-            const rect = track.getBoundingClientRect();
-            const clickX = e.clientX - rect.left;
-            const clickRatio = Math.max(0, Math.min(1, clickX / rect.width));
-            const maxScroll = viewport.scrollWidth - viewport.clientWidth;
-            viewport.scrollTo({
-                left: clickRatio * maxScroll,
-                behavior: 'smooth'
-            });
-        });
-    }
-    
-    // Mouse drag-to-scroll support
-    let isDown = false;
-    let startX = 0;
-    let scrollLeftPos = 0;
-    let dragThreshold = false;
-    
-    viewport.addEventListener('mousedown', (e) => {
-        isDown = true;
-        dragThreshold = false;
-        viewport.classList.add('is-dragging');
-        startX = e.pageX - viewport.offsetLeft;
-        scrollLeftPos = viewport.scrollLeft;
-    });
-    
-    window.addEventListener('mouseup', () => {
-        if (!isDown) return;
-        isDown = false;
-        viewport.classList.remove('is-dragging');
-        setTimeout(() => { dragThreshold = false; }, 50);
-    });
-    
-    viewport.addEventListener('mouseleave', () => {
-        if (!isDown) return;
-        isDown = false;
-        viewport.classList.remove('is-dragging');
-    });
-    
-    viewport.addEventListener('mousemove', (e) => {
-        if (!isDown) return;
-        const x = e.pageX - viewport.offsetLeft;
-        const walk = (x - startX) * 1.5;
-        if (Math.abs(walk) > 6) {
-            dragThreshold = true;
-        }
-        e.preventDefault();
-        viewport.scrollLeft = scrollLeftPos - walk;
-    });
+    const width = window.innerWidth;
+    const isMobile = width < 768;
+    const isTablet = width >= 768 && width < 1024;
 
-    // Prevent navigation if user was dragging
-    const cards = viewport.querySelectorAll('.arc-card');
-    cards.forEach(card => {
-        card.addEventListener('click', (e) => {
-            if (dragThreshold) {
-                e.preventDefault();
-                e.stopPropagation();
+    cards.forEach((card) => {
+        const cardIndex = parseInt(card.getAttribute('data-index'), 10);
+        
+        // Compute cyclic relative offset around active index: -3, -2, -1, 0, 1, 2, 3
+        let diff = (cardIndex - currentCapabilityIndex) % TOTAL_CAPABILITIES;
+        if (diff < -Math.floor(TOTAL_CAPABILITIES / 2)) diff += TOTAL_CAPABILITIES;
+        if (diff > Math.floor(TOTAL_CAPABILITIES / 2)) diff -= TOTAL_CAPABILITIES;
+
+        const absDiff = Math.abs(diff);
+        const sign = Math.sign(diff);
+
+        let tx = 0;
+        let tz = 0;
+        let ry = 0;
+        let scale = 1;
+        let zIndex = 30;
+        let opacity = 1;
+        let brightness = 1;
+        let blur = 0;
+
+        if (diff === 0) {
+            // Central active card: Dominant, forward, straight, brightest
+            tx = 0;
+            tz = 0;
+            ry = 0;
+            scale = isMobile ? 1.0 : (isTablet ? 0.98 : 1.0);
+            zIndex = 30;
+            opacity = 1;
+            brightness = 1;
+            blur = 0;
+        } else if (absDiff === 1) {
+            // Immediate left/right neighbors: Tilted inward, stacked slightly behind
+            if (isMobile) {
+                tx = sign * 80;
+                tz = -70;
+                ry = -sign * 12;
+                scale = 0.85;
+                zIndex = 20;
+                opacity = 0.38;
+                brightness = 0.65;
+            } else if (isTablet) {
+                tx = sign * 165;
+                tz = -90;
+                ry = -sign * 16;
+                scale = 0.83;
+                zIndex = 20;
+                opacity = 0.85;
+                brightness = 0.72;
+            } else {
+                tx = sign * 215;
+                tz = -110;
+                ry = -sign * 18;
+                scale = 0.86;
+                zIndex = 20;
+                opacity = 0.88;
+                brightness = 0.74;
             }
-        }, true);
+        } else if (absDiff === 2) {
+            // Mid-tier cards: Further back and steeper angle
+            if (isMobile) {
+                tx = sign * 140;
+                tz = -140;
+                ry = -sign * 18;
+                scale = 0.7;
+                zIndex = 10;
+                opacity = 0; // Hide on mobile to prevent overflow
+                brightness = 0.3;
+            } else if (isTablet) {
+                tx = sign * 300;
+                tz = -180;
+                ry = -sign * 24;
+                scale = 0.68;
+                zIndex = 10;
+                opacity = 0.45;
+                brightness = 0.48;
+                blur = 0.5;
+            } else {
+                tx = sign * 390;
+                tz = -220;
+                ry = -sign * 28;
+                scale = 0.72;
+                zIndex = 10;
+                opacity = 0.55;
+                brightness = 0.50;
+                blur = 0.5;
+            }
+        } else {
+            // Outer cards (diff === 3 or -3): Faded out in background depth
+            if (isMobile || isTablet) {
+                tx = sign * 380;
+                tz = -260;
+                ry = -sign * 30;
+                scale = 0.55;
+                zIndex = 5;
+                opacity = 0;
+                brightness = 0.2;
+            } else {
+                tx = sign * 530;
+                tz = -330;
+                ry = -sign * 36;
+                scale = 0.60;
+                zIndex = 5;
+                opacity = 0.28;
+                brightness = 0.32;
+                blur = 1;
+            }
+        }
+
+        // Apply calculated 3D transformation
+        card.style.transform = `translateX(${tx}px) translateZ(${tz}px) rotateY(${ry}deg) scale(${scale})`;
+        card.style.zIndex = zIndex;
+        card.style.opacity = opacity;
+        card.style.filter = `brightness(${brightness})${blur > 0 ? ` blur(${blur}px)` : ''}`;
+        card.style.pointerEvents = opacity < 0.1 ? 'none' : 'auto';
+
+        // Toggle active highlight state
+        const isActive = (diff === 0);
+        card.classList.toggle('is-active', isActive);
+
+        // Update progress bar and counter inside the card
+        const indexEl = card.querySelector('.cinematic-card-index');
+        const progressLine = card.querySelector('.cinematic-card-progressline');
+        if (indexEl) {
+            indexEl.textContent = `0${currentCapabilityIndex + 1} / 0${TOTAL_CAPABILITIES}`;
+        }
+        if (progressLine) {
+            progressLine.style.width = `${((currentCapabilityIndex + 1) / TOTAL_CAPABILITIES) * 100}%`;
+        }
     });
-    
-    // Initial calculation
-    setTimeout(updateArcScrollProgress, 100);
+
+    // Update floating dock active indicators
+    dockItems.forEach((item) => {
+        const itemIndex = parseInt(item.getAttribute('data-index'), 10);
+        const isActive = (itemIndex === currentCapabilityIndex);
+        item.classList.toggle('is-active', isActive);
+        if (isActive && item.scrollIntoView && window.innerWidth < 640) {
+            item.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        }
+    });
+}
+
+function initCinematicCarouselControls() {
+    const stage = document.getElementById('cinematic-stage');
+    if (!stage) return;
+
+    // Mouse Drag Handling
+    stage.addEventListener('mousedown', (e) => {
+        isCinematicDragging = true;
+        cinematicDragThreshold = false;
+        cinematicDragStartX = e.pageX;
+        cinematicDragCurrentX = e.pageX;
+        stage.classList.add('is-dragging');
+    });
+
+    window.addEventListener('mousemove', (e) => {
+        if (!isCinematicDragging) return;
+        cinematicDragCurrentX = e.pageX;
+        const deltaX = cinematicDragCurrentX - cinematicDragStartX;
+        if (Math.abs(deltaX) > 8) {
+            cinematicDragThreshold = true;
+        }
+    });
+
+    window.addEventListener('mouseup', () => {
+        if (!isCinematicDragging) return;
+        isCinematicDragging = false;
+        stage.classList.remove('is-dragging');
+        
+        const deltaX = cinematicDragCurrentX - cinematicDragStartX;
+        if (Math.abs(deltaX) > 45) {
+            if (deltaX < 0) {
+                rotateCapabilities(1); // Dragged left -> advance next
+            } else {
+                rotateCapabilities(-1); // Dragged right -> advance prev
+            }
+        }
+        setTimeout(() => { cinematicDragThreshold = false; }, 60);
+    });
+
+    // Touch Swipe Handling for Mobile / Tablets
+    stage.addEventListener('touchstart', (e) => {
+        if (e.touches.length === 1) {
+            isCinematicDragging = true;
+            cinematicDragThreshold = false;
+            cinematicDragStartX = e.touches[0].pageX;
+            cinematicDragCurrentX = e.touches[0].pageX;
+        }
+    }, { passive: true });
+
+    stage.addEventListener('touchmove', (e) => {
+        if (!isCinematicDragging || e.touches.length !== 1) return;
+        cinematicDragCurrentX = e.touches[0].pageX;
+        const deltaX = cinematicDragCurrentX - cinematicDragStartX;
+        if (Math.abs(deltaX) > 10) {
+            cinematicDragThreshold = true;
+        }
+    }, { passive: true });
+
+    stage.addEventListener('touchend', () => {
+        if (!isCinematicDragging) return;
+        isCinematicDragging = false;
+        
+        const deltaX = cinematicDragCurrentX - cinematicDragStartX;
+        if (Math.abs(deltaX) > 40) {
+            if (deltaX < 0) {
+                rotateCapabilities(1); // Swiped left -> next
+            } else {
+                rotateCapabilities(-1); // Swiped right -> prev
+            }
+        }
+        setTimeout(() => { cinematicDragThreshold = false; }, 60);
+    }, { passive: true });
+
+    // Keyboard Arrow Controls (Left / Right Arrow)
+    window.addEventListener('keydown', (e) => {
+        // Ignore if user is currently typing in an input, textarea or select
+        const activeTag = document.activeElement ? document.activeElement.tagName.toLowerCase() : '';
+        if (activeTag === 'input' || activeTag === 'textarea' || activeTag === 'select') return;
+
+        // Check if section is roughly in view
+        const section = document.getElementById('capabilities-section');
+        if (section) {
+            const rect = section.getBoundingClientRect();
+            const isInView = (rect.top < window.innerHeight && rect.bottom > 0);
+            if (!isInView) return;
+        }
+
+        if (e.key === 'ArrowLeft') {
+            e.preventDefault();
+            rotateCapabilities(-1);
+        } else if (e.key === 'ArrowRight') {
+            e.preventDefault();
+            rotateCapabilities(1);
+        }
+    });
+
+    // Window resize handler to readjust 3D scale and offsets
+    let resizeTimer = null;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(updateCinematicCarousel, 60);
+    });
+
+    // Initial 3D Layout Calculation
+    updateCinematicCarousel();
 }
 
 // Auto-initialize when ready
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initArcScrollControls);
+    document.addEventListener('DOMContentLoaded', initCinematicCarouselControls);
 } else {
-    initArcScrollControls();
+    initCinematicCarouselControls();
 }

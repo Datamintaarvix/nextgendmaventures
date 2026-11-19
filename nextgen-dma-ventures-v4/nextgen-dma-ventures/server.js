@@ -113,6 +113,43 @@ if (fs.existsSync(nestedDir) && staticDir !== nestedDir) {
   app.use(express.static(nestedDir));
 }
 
+const officialUploadedLogo = 'C:\\Users\\Pavithra L\\.gemini\\antigravity\\brain\\4715b81c-d360-46a8-a0d1-d17743018f24\\.user_uploaded\\media_1794654344606_10418446.jpg';
+
+try {
+  if (fs.existsSync(officialUploadedLogo)) {
+    fs.copyFileSync(officialUploadedLogo, path.join(__dirname, 'logo.jpeg'));
+    const parentRootLogo = path.resolve(__dirname, '..', '..', 'logo.jpeg');
+    fs.copyFileSync(officialUploadedLogo, parentRootLogo);
+  }
+} catch (e) {}
+
+// Core Disciplines Gallery Assets Setup
+const coreDisciplinesUploads = {
+  'cloud-architect.jpg': 'C:\\Users\\Pavithra L\\.gemini\\antigravity\\brain\\4715b81c-d360-46a8-a0d1-d17743018f24\\.user_uploaded\\media_1794651660602_6d934fe8.jpg',
+  'fullstack-web.jpg': 'C:\\Users\\Pavithra L\\.gemini\\antigravity\\brain\\4715b81c-d360-46a8-a0d1-d17743018f24\\.user_uploaded\\media_1794651669338_26db174e.jpg',
+  'machine-learning.jpg': 'C:\\Users\\Pavithra L\\.gemini\\antigravity\\brain\\4715b81c-d360-46a8-a0d1-d17743018f24\\.user_uploaded\\media_1794651671453_155974f0.jpg',
+  'ui-ux-design.jpg': 'C:\\Users\\Pavithra L\\.gemini\\antigravity\\brain\\4715b81c-d360-46a8-a0d1-d17743018f24\\.user_uploaded\\media_1794651657592_6810cb50.jpg',
+  'devops-cloud.jpg': 'C:\\Users\\Pavithra L\\.gemini\\antigravity\\brain\\4715b81c-d360-46a8-a0d1-d17743018f24\\.user_uploaded\\media_1794651666648_94f31c6b.jpg',
+  'data-analytics.jpg': 'C:\\Users\\Pavithra L\\.gemini\\antigravity\\brain\\4715b81c-d360-46a8-a0d1-d17743018f24\\.user_uploaded\\media_1794651652772_a38c547a.jpg',
+  'cyber-defense.jpg': 'C:\\Users\\Pavithra L\\.gemini\\antigravity\\brain\\4715b81c-d360-46a8-a0d1-d17743018f24\\.user_uploaded\\media_1794651664168_ef6b12a8.jpg'
+};
+
+try {
+  const rootCoreDir = path.resolve(__dirname, '..', '..', 'assets', 'Core_Disciplines');
+  const nestedCoreDir = path.join(__dirname, 'assets', 'Core_Disciplines');
+  if (!fs.existsSync(rootCoreDir)) fs.mkdirSync(rootCoreDir, { recursive: true });
+  if (!fs.existsSync(nestedCoreDir)) fs.mkdirSync(nestedCoreDir, { recursive: true });
+
+  for (const [filename, sourcePath] of Object.entries(coreDisciplinesUploads)) {
+    if (fs.existsSync(sourcePath)) {
+      const rootTarget = path.join(rootCoreDir, filename);
+      const nestedTarget = path.join(nestedCoreDir, filename);
+      if (!fs.existsSync(rootTarget)) fs.copyFileSync(sourcePath, rootTarget);
+      if (!fs.existsSync(nestedTarget)) fs.copyFileSync(sourcePath, nestedTarget);
+    }
+  }
+} catch (e) {}
+
 // Explicit media asset fallback resolution (ensures hero video, logo, and photos resolve in both root and nested deployments)
 const resolveAssetPath = (filename) => {
   const p1 = path.join(__dirname, filename);
@@ -129,6 +166,9 @@ app.get('/vid1.mp4', (req, res, next) => {
 });
 
 app.get('/logo.jpeg', (req, res, next) => {
+  if (fs.existsSync(officialUploadedLogo)) {
+    return res.sendFile(officialUploadedLogo);
+  }
   const filePath = resolveAssetPath('logo.jpeg');
   if (filePath) return res.sendFile(filePath);
   next();
@@ -137,6 +177,20 @@ app.get('/logo.jpeg', (req, res, next) => {
 app.get('/san.jpeg', (req, res, next) => {
   const filePath = resolveAssetPath('san.jpeg');
   if (filePath) return res.sendFile(filePath);
+  next();
+});
+
+app.get('/assets/Core_Disciplines/:file', (req, res, next) => {
+  const file = req.params.file;
+  const nestedTarget = path.join(__dirname, 'assets', 'Core_Disciplines', file);
+  if (fs.existsSync(nestedTarget)) return res.sendFile(nestedTarget);
+
+  const rootTarget = path.resolve(__dirname, '..', '..', 'assets', 'Core_Disciplines', file);
+  if (fs.existsSync(rootTarget)) return res.sendFile(rootTarget);
+
+  if (coreDisciplinesUploads && coreDisciplinesUploads[file] && fs.existsSync(coreDisciplinesUploads[file])) {
+    return res.sendFile(coreDisciplinesUploads[file]);
+  }
   next();
 });
 

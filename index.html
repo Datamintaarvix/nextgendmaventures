@@ -692,16 +692,14 @@
       }
 
       /* 3D Capabilities Section Containment */
-      .capabilities-arc-section {
+      .capabilities-arc-section,
+      .capabilities-cinematic-section {
         overflow: hidden !important;
         contain: paint !important;
         width: 100% !important;
         max-width: 100vw !important;
         background: #000000 !important;
         position: relative !important;
-      }
-      .capabilities-arc-track {
-        min-width: max-content !important;
       }
     </style>
 </head>
@@ -753,7 +751,7 @@
         <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-mint/30 px-6 pt-4 pb-6 space-y-2.5 shadow-2xl">
             <button onclick="navigateToTab('home')" class="mobile-nav-link block w-full text-left py-3 px-4 rounded-xl text-black font-mono text-xs uppercase tracking-wider hover:bg-mint/15 hover:text-black font-semibold transition">Home</button>
             <button onclick="navigateToTab('about')" class="mobile-nav-link block w-full text-left py-3 px-4 rounded-xl text-black font-mono text-xs uppercase tracking-wider hover:bg-mint/15 hover:text-black font-semibold transition">About Us</button>
-            <button onclick="navigateToTab('courses')" class="mobile-nav-link block w-full text-left py-3 px-4 rounded-xl text-black font-mono text-xs uppercase tracking-wider hover:bg-mint/15 hover:text-black font-semibold transition">47 Courses &amp; Internships</button>
+            <button onclick="navigateToTab('courses')" class="mobile-nav-link block w-full text-left py-3 px-4 rounded-xl text-black font-mono text-xs uppercase tracking-wider hover:bg-mint/15 hover:text-black font-semibold transition">45 Courses &amp; Internships</button>
             <button onclick="navigateToTab('learning')" class="mobile-nav-link block w-full text-left py-3 px-4 rounded-xl text-black font-mono text-xs uppercase tracking-wider hover:bg-mint/15 hover:text-black font-semibold transition">Learning Approach</button>
             <button onclick="navigateToTab('contact')" class="mobile-nav-link block w-full text-left py-3 px-4 rounded-xl text-black font-mono text-xs uppercase tracking-wider hover:bg-mint/15 hover:text-black font-semibold transition">Contact &amp; Support</button>
             <div class="pt-3 border-t border-slate-200">
@@ -794,7 +792,7 @@
 
                 <!-- Floating Glass Metadata Badge on Video (Top Right) -->
                 <div class="absolute top-6 right-6 z-10 hidden sm:flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/60 backdrop-blur-md border border-white/20 text-white font-mono text-[10px] tracking-wider uppercase">
-                    <span class="text-mint font-bold">47 Career Tracks</span> &bull; 100% Practical Labs
+                    <span class="text-mint font-bold">45 Career Tracks</span> &bull; 100% Practical Labs
                 </div>
 
                 <!-- Gradient bottom with subtle scroll indicator -->
@@ -821,7 +819,7 @@
                         <span class="w-2 h-2 rounded-full bg-white"></span>
                         <span>ENTERPRISE SOLUTIONS</span>
                         <span class="w-2 h-2 rounded-full bg-mint"></span>
-                        <span class="text-mint">47 CAREER TRACKS</span>
+                        <span class="text-mint">45 CAREER TRACKS</span>
                         <span class="w-2 h-2 rounded-full bg-white"></span>
                     </span>
                     <span class="font-display text-2xl sm:text-3xl tracking-widest text-white mx-6 flex items-center gap-6" aria-hidden="true">
@@ -835,7 +833,7 @@
                         <span class="w-2 h-2 rounded-full bg-white"></span>
                         <span>ENTERPRISE SOLUTIONS</span>
                         <span class="w-2 h-2 rounded-full bg-mint"></span>
-                        <span class="text-mint">47 CAREER TRACKS</span>
+                        <span class="text-mint">45 CAREER TRACKS</span>
                         <span class="w-2 h-2 rounded-full bg-white"></span>
                     </span>
                 </div>
@@ -857,7 +855,7 @@
                             <p class="text-slate-600 text-sm sm:text-base mt-2">Technology that moves businesses and careers forward.</p>
                         </div>
                         <button onclick="navigateToTab('courses')" class="glass-btn-secondary self-start md:self-auto">
-                            <span>VIEW ALL 47 COURSES</span>
+                            <span>VIEW ALL 45 COURSES</span>
                             <i class="fa-solid fa-arrow-right text-xs text-mint"></i>
                         </button>
                     </div>
@@ -868,7 +866,7 @@
                         <!-- 01 Web Development -->
                         <div class="service-card group">
                             <div class="service-card-media">
-                                <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=800&q=80" alt="Web Development" class="service-card-img" loading="lazy">
+                                <img src="./assets/home.images/home.images/web-develop.jpg" alt="Web Development" class="service-card-img" loading="lazy">
                                 <div class="service-card-badge">01</div>
                             </div>
                             <div class="service-card-body">
@@ -897,7 +895,7 @@
                         <!-- 02 Software Development -->
                         <div class="service-card group">
                             <div class="service-card-media">
-                                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="Software Development" class="service-card-img" loading="lazy">
+                                <img src="./assets/home.images/home.images/software.jpg" alt="Software Development" class="service-card-img" loading="lazy">
                                 <div class="service-card-badge">02</div>
                             </div>
                             <div class="service-card-body">
@@ -926,7 +924,7 @@
                         <!-- 03 UI/UX Design -->
                         <div class="service-card group">
                             <div class="service-card-media">
-                                <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=800&q=80" alt="UI/UX Design" class="service-card-img" loading="lazy">
+                                <img src="./assets/home.images/home.images/ui.png" alt="UI/UX Design" class="service-card-img" loading="lazy">
                                 <div class="service-card-badge">03</div>
                             </div>
                             <div class="service-card-body">
@@ -955,7 +953,7 @@
                         <!-- 04 Mobile App Development -->
                         <div class="service-card group">
                             <div class="service-card-media">
-                                <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80" alt="Mobile App Development" class="service-card-img" loading="lazy">
+                                <img src="./assets/home.images/home.images/app.jpg" alt="Mobile App Development" class="service-card-img" loading="lazy">
                                 <div class="service-card-badge">04</div>
                             </div>
                             <div class="service-card-body">
@@ -984,7 +982,7 @@
                         <!-- 05 E-Commerce Solutions -->
                         <div class="service-card group">
                             <div class="service-card-media">
-                                <img src="https://images.unsplash.com/photo-1556742049-0a67c5574f73?auto=format&fit=crop&w=800&q=80" alt="E-Commerce Solutions" class="service-card-img" loading="lazy">
+                                <img src="./assets/home.images/home.images/ecommerce.jpg" alt="E-Commerce Solutions" class="service-card-img" loading="lazy">
                                 <div class="service-card-badge">05</div>
                             </div>
                             <div class="service-card-body">
@@ -1012,7 +1010,7 @@
                         <!-- 06 AI & Automation -->
                         <div class="service-card group">
                             <div class="service-card-media">
-                                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80" alt="AI & Automation" class="service-card-img" loading="lazy">
+                                <img src="./assets/home.images/home.images/ai in automative head.png" alt="AI & Automation" class="service-card-img" loading="lazy">
                                 <div class="service-card-badge">06</div>
                             </div>
                             <div class="service-card-body">
@@ -1041,7 +1039,7 @@
                         <!-- 07 Cloud & DevOps -->
                         <div class="service-card group">
                             <div class="service-card-media">
-                                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80" alt="Cloud & DevOps" class="service-card-img" loading="lazy">
+                                <img src="./assets/home.images/home.images/Cloud & DevOps.jpg" alt="Cloud & DevOps" class="service-card-img" loading="lazy">
                                 <div class="service-card-badge">07</div>
                             </div>
                             <div class="service-card-body">
@@ -1070,7 +1068,7 @@
                         <!-- 08 Custom Digital Solutions -->
                         <div class="service-card group">
                             <div class="service-card-media">
-                                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80" alt="Custom Digital Solutions" class="service-card-img" loading="lazy">
+                                <img src="./assets/home.images/home.images/digital.jpg" alt="Custom Digital Solutions" class="service-card-img" loading="lazy">
                                 <div class="service-card-badge">08</div>
                             </div>
                             <div class="service-card-body">
@@ -1098,7 +1096,7 @@
                         <!-- 09 Data Analytics & BI -->
                         <div class="service-card group">
                             <div class="service-card-media">
-                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Data Analytics" class="service-card-img" loading="lazy">
+                                <img src="./assets/home.images/home.images/data.png" alt="Data Analytics" class="service-card-img" loading="lazy">
                                 <div class="service-card-badge">09</div>
                             </div>
                             <div class="service-card-body">
@@ -1127,7 +1125,7 @@
                         <!-- 10 Social & Growth Marketing -->
                         <div class="service-card group">
                             <div class="service-card-media">
-                                <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=800&q=80" alt="Social Media Management" class="service-card-img" loading="lazy">
+                                <img src="./assets/home.images/home.images/Social & Growth Marketing.jpg" alt="Social Media Management" class="service-card-img" loading="lazy">
                                 <div class="service-card-badge">10</div>
                             </div>
                             <div class="service-card-body">
@@ -1180,148 +1178,417 @@
                 </div>
             </div>
 
-            <!-- 5. EXPLORE OUR CAPABILITIES (3D Curved Arc Panorama Gallery as in Reference Image) -->
-            <div class="capabilities-arc-section py-24">
-                <div class="container mx-auto px-4 lg:px-8">
+            <!-- 5. EXPLORE OUR CAPABILITIES (Cinematic 3D Overlapping Carousel — Ref Image 2) -->
+            <div class="capabilities-cinematic-section py-24 relative overflow-hidden" id="capabilities-section">
+                <!-- Ambient Mint Glowing Accents -->
+                <div class="ambient-glow-mint top-1/4 left-1/2 -translate-x-1/2 pointer-events-none opacity-40"></div>
+                <div class="ambient-glow-mint -bottom-20 right-10 pointer-events-none opacity-25"></div>
+
+                <div class="container mx-auto px-4 lg:px-8 relative z-10">
                     
                     <!-- Top Centered Editorial Header -->
-                    <div class="text-center max-w-3xl mx-auto mb-10">
-                        <span class="glass-pill glass-pill-dark mb-3">
-                            <span class="w-1.5 h-1.5 rounded-full bg-mint"></span>
+                    <div class="text-center max-w-3xl mx-auto mb-14">
+                        <span class="glass-pill glass-pill-dark mb-4">
+                            <span class="w-1.5 h-1.5 rounded-full bg-mint animate-pulse"></span>
                             Core Disciplines
                         </span>
                         <h2 class="font-display text-5xl sm:text-6xl lg:text-7xl text-white uppercase tracking-tight leading-none mt-2">
                             EXPLORE OUR <span class="mint-gradient-text">CAPABILITIES</span>
                         </h2>
-                        <p class="text-slate-300 text-sm sm:text-base mt-3 max-w-xl mx-auto leading-relaxed font-light">
+                        <p class="text-slate-300 text-sm sm:text-base mt-4 max-w-xl mx-auto leading-relaxed font-light">
                             Comprehensive technological capabilities delivering measurable business advantage.
                         </p>
                         
-                        <!-- CTA Pill Button (Matching user reference image) -->
-                        <div class="mt-6 flex justify-center">
-                            <button onclick="navigateToTab('courses')" class="glass-btn-primary">
-                                <span>Get Started for Free &bull; Explore Track</span>
-                                <i class="fa-solid fa-arrow-right text-xs"></i>
+                        <!-- CTA Pill Button (Exact User Request) -->
+                        <div class="mt-7 flex justify-center">
+                            <button onclick="navigateToTab('courses')" class="glass-btn-primary group">
+                                <span>GET STARTED FOR FREE &bull; EXPLORE TRACK</span>
+                                <i class="fa-solid fa-arrow-right text-xs group-hover:translate-x-1 transition-transform"></i>
                             </button>
                         </div>
                     </div>
 
                 </div>
 
-                <!-- 3D Curved Arc Ribbon with Side Navigation Buttons & Scrollable Path -->
-                <div class="capabilities-arc-stage">
+                <!-- 3D Cinematic Perspective Carousel Stage -->
+                <div class="cinematic-carousel-wrapper">
                     
-                    <!-- Left Floating Navigation Button -->
-                    <button id="arc-side-prev" class="arc-side-nav-btn arc-prev-btn" onclick="scrollArcGallery(-1)" aria-label="Previous capability" title="Previous capability">
+                    <!-- Left Floating Arrow Button -->
+                    <button id="cinematic-arrow-prev" class="cinematic-arrow-btn cinematic-arrow-prev" onclick="rotateCapabilities(-1)" aria-label="Previous capability" title="Previous capability">
                         <i class="fa-solid fa-chevron-left"></i>
                     </button>
 
-                    <!-- Right Floating Navigation Button -->
-                    <button id="arc-side-next" class="arc-side-nav-btn arc-next-btn" onclick="scrollArcGallery(1)" aria-label="Next capability" title="Next capability">
+                    <!-- Right Floating Arrow Button -->
+                    <button id="cinematic-arrow-next" class="cinematic-arrow-btn cinematic-arrow-next" onclick="rotateCapabilities(1)" aria-label="Next capability" title="Next capability">
                         <i class="fa-solid fa-chevron-right"></i>
                     </button>
 
                     <!-- Left & Right Vignette Shadows for smooth infinite edge fade -->
-                    <div class="arc-side-vignette arc-vignette-left"></div>
-                    <div class="arc-side-vignette arc-vignette-right"></div>
+                    <div class="cinematic-vignette cinematic-vignette-left"></div>
+                    <div class="cinematic-vignette cinematic-vignette-right"></div>
 
-                    <!-- 3D Curved Arc Viewport -->
-                    <div class="capabilities-arc-viewport" id="capabilities-arc-viewport">
-                        <div class="capabilities-arc-track" id="capabilities-arc-track">
+                    <!-- 3D Carousel Stage Viewport -->
+                    <div class="cinematic-stage" id="cinematic-stage">
+                        <div class="cinematic-scene" id="cinematic-scene">
                             
-                            <!-- Card 1 (Far Left Arc) -->
-                            <div class="arc-card arc-card-1" onclick="navigateToTab('courses')">
-                                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=500&q=80" alt="Cloud Architect">
-                                <div class="arc-card-overlay">
-                                    <span class="arc-card-role">Cloud Architecture</span>
-                                    <div class="arc-card-name">Enterprise Systems</div>
+                            <!-- Card 0: Creative Direction — UI/UX Innovation -->
+                            <div class="cinematic-card" data-index="0" onclick="handleCardClick(0)">
+                                <div class="cinematic-card-glass"></div>
+                                <div class="cinematic-card-media">
+                                    <img src="./assets/Core_Disciplines/cloud-architect.jpg" onerror="this.onerror=null; this.src='./nextgen-dma-ventures-v4/nextgen-dma-ventures/assets/Core_Disciplines/cloud-architect.jpg';" alt="Creative Direction — UI/UX Innovation" class="cinematic-card-img" loading="eager">
+                                </div>
+                                <div class="cinematic-card-scrim"></div>
+                                
+                                <div class="cinematic-card-header">
+                                    <span class="cinematic-card-pill">
+                                        <i class="fa-solid fa-palette text-mint text-xs"></i>
+                                        <span>UI / UX DESIGN</span>
+                                    </span>
+                                    <button class="cinematic-card-action" onclick="event.stopPropagation(); navigateToTab('courses');" title="Explore UI/UX Curriculum">
+                                        <i class="fa-regular fa-bookmark"></i>
+                                    </button>
+                                </div>
+
+                                <div class="cinematic-card-body">
+                                    <span class="cinematic-card-subtitle">UI/UX Innovation</span>
+                                    <h3 class="cinematic-card-title">CREATIVE DIRECTION</h3>
+                                    <p class="cinematic-card-desc">Human-centric design systems, rapid wireframing, interactive prototypes, and cross-platform UX strategy.</p>
+                                    <div class="cinematic-card-tags">
+                                        <span class="cinematic-tag">Design Systems</span>
+                                        <span class="cinematic-tag">Wireframing</span>
+                                        <span class="cinematic-tag">Figma</span>
+                                        <span class="cinematic-tag">UX Strategy</span>
+                                    </div>
+                                    <div class="cinematic-card-footer">
+                                        <div class="cinematic-card-meta">
+                                            <span class="cinematic-card-index">01 / 07</span>
+                                            <div class="cinematic-card-progressbar">
+                                                <div class="cinematic-card-progressline" style="width: 14.3%;"></div>
+                                            </div>
+                                        </div>
+                                        <button class="cinematic-card-nextbtn" onclick="event.stopPropagation(); rotateCapabilities(1);" aria-label="Next capability">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
 
-                            <!-- Card 2 (Mid-Left Arc) -->
-                            <div class="arc-card arc-card-2" onclick="navigateToTab('courses')">
-                                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80" alt="Full Stack Developer">
-                                <div class="arc-card-overlay">
-                                    <span class="arc-card-role">Full-Stack Web</span>
-                                    <div class="arc-card-name">Modern Platforms</div>
+                            <!-- Card 1: Full-Stack Web — Modern Platforms -->
+                            <div class="cinematic-card" data-index="1" onclick="handleCardClick(1)">
+                                <div class="cinematic-card-glass"></div>
+                                <div class="cinematic-card-media">
+                                    <img src="./assets/Core_Disciplines/fullstack-web.jpg" onerror="this.onerror=null; this.src='./nextgen-dma-ventures-v4/nextgen-dma-ventures/assets/Core_Disciplines/fullstack-web.jpg';" alt="Full-Stack Web — Modern Platforms" class="cinematic-card-img" loading="lazy">
+                                </div>
+                                <div class="cinematic-card-scrim"></div>
+                                
+                                <div class="cinematic-card-header">
+                                    <span class="cinematic-card-pill">
+                                        <i class="fa-solid fa-code text-mint text-xs"></i>
+                                        <span>Full-Stack Web</span>
+                                    </span>
+                                    <button class="cinematic-card-action" onclick="event.stopPropagation(); navigateToTab('courses');" title="Explore Full-Stack Curriculum">
+                                        <i class="fa-regular fa-bookmark"></i>
+                                    </button>
+                                </div>
+
+                                <div class="cinematic-card-body">
+                                    <span class="cinematic-card-subtitle">Modern Platforms</span>
+                                    <h3 class="cinematic-card-title">FULL-STACK WEB</h3>
+                                    <p class="cinematic-card-desc">Responsive full-stack web platforms, modern frontend architectures, modular APIs, and distributed data systems.</p>
+                                    <div class="cinematic-card-tags">
+                                        <span class="cinematic-tag">React</span>
+                                        <span class="cinematic-tag">Node.js</span>
+                                        <span class="cinematic-tag">TypeScript</span>
+                                        <span class="cinematic-tag">REST / GraphQL</span>
+                                    </div>
+                                    <div class="cinematic-card-footer">
+                                        <div class="cinematic-card-meta">
+                                            <span class="cinematic-card-index">02 / 07</span>
+                                            <div class="cinematic-card-progressbar">
+                                                <div class="cinematic-card-progressline" style="width: 28.6%;"></div>
+                                            </div>
+                                        </div>
+                                        <button class="cinematic-card-nextbtn" onclick="event.stopPropagation(); rotateCapabilities(1);" aria-label="Next capability">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
 
-                            <!-- Card 3 (Left-Center Arc) -->
-                            <div class="arc-card arc-card-3" onclick="navigateToTab('courses')">
-                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80" alt="AI & ML Specialist">
-                                <div class="arc-card-overlay">
-                                    <span class="arc-card-role">Machine Learning</span>
-                                    <div class="arc-card-name">Intelligent Bots</div>
+                            <!-- Card 2: Machine Learning — Intelligent Bots -->
+                            <div class="cinematic-card" data-index="2" onclick="handleCardClick(2)">
+                                <div class="cinematic-card-glass"></div>
+                                <div class="cinematic-card-media">
+                                    <img src="./assets/Core_Disciplines/machine-learning.jpg" onerror="this.onerror=null; this.src='./nextgen-dma-ventures-v4/nextgen-dma-ventures/assets/Core_Disciplines/machine-learning.jpg';" alt="Machine Learning — Intelligent Bots" class="cinematic-card-img" loading="lazy">
+                                </div>
+                                <div class="cinematic-card-scrim"></div>
+                                
+                                <div class="cinematic-card-header">
+                                    <span class="cinematic-card-pill">
+                                        <i class="fa-solid fa-brain text-mint text-xs"></i>
+                                        <span>AI &bull; Deep Learning</span>
+                                    </span>
+                                    <button class="cinematic-card-action" onclick="event.stopPropagation(); navigateToTab('courses');" title="Explore AI/ML Curriculum">
+                                        <i class="fa-regular fa-bookmark"></i>
+                                    </button>
+                                </div>
+
+                                <div class="cinematic-card-body">
+                                    <span class="cinematic-card-subtitle">Intelligent Bots</span>
+                                    <h3 class="cinematic-card-title">MACHINE LEARNING</h3>
+                                    <p class="cinematic-card-desc">Autonomous AI bots, deep neural networks, natural language processing, LLM agents, and predictive algorithms.</p>
+                                    <div class="cinematic-card-tags">
+                                        <span class="cinematic-tag">PyTorch</span>
+                                        <span class="cinematic-tag">LLM Agents</span>
+                                        <span class="cinematic-tag">NLP</span>
+                                        <span class="cinematic-tag">Python</span>
+                                    </div>
+                                    <div class="cinematic-card-footer">
+                                        <div class="cinematic-card-meta">
+                                            <span class="cinematic-card-index">03 / 07</span>
+                                            <div class="cinematic-card-progressbar">
+                                                <div class="cinematic-card-progressline" style="width: 42.8%;"></div>
+                                            </div>
+                                        </div>
+                                        <button class="cinematic-card-nextbtn" onclick="event.stopPropagation(); rotateCapabilities(1);" aria-label="Next capability">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
 
-                            <!-- Card 4 (Center Key Card — Elevated) -->
-                            <div class="arc-card arc-card-4" onclick="navigateToTab('courses')">
-                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=500&q=80" alt="Lead Product Designer">
-                                <div class="arc-card-overlay">
-                                    <span class="arc-card-role">Creative Direction</span>
-                                    <div class="arc-card-name">UI/UX Innovation</div>
+                            <!-- Card 3: Cloud Architect — Enterprise Systems -->
+                            <div class="cinematic-card" data-index="3" onclick="handleCardClick(3)">
+                                <div class="cinematic-card-glass"></div>
+                                <div class="cinematic-card-media">
+                                    <img src="./assets/Core_Disciplines/ui-ux-design.jpg" onerror="this.onerror=null; this.src='./nextgen-dma-ventures-v4/nextgen-dma-ventures/assets/Core_Disciplines/ui-ux-design.jpg';" alt="Cloud Architect — Enterprise Systems" class="cinematic-card-img" loading="lazy">
+                                </div>
+                                <div class="cinematic-card-scrim"></div>
+                                
+                                <div class="cinematic-card-header">
+                                    <span class="cinematic-card-pill">
+                                        <i class="fa-solid fa-cloud text-mint text-xs"></i>
+                                        <span>Cloud Systems</span>
+                                    </span>
+                                    <button class="cinematic-card-action" onclick="event.stopPropagation(); navigateToTab('courses');" title="Explore Cloud Curriculum">
+                                        <i class="fa-regular fa-bookmark"></i>
+                                    </button>
+                                </div>
+
+                                <div class="cinematic-card-body">
+                                    <span class="cinematic-card-subtitle">Enterprise Systems</span>
+                                    <h3 class="cinematic-card-title">CLOUD ARCHITECT</h3>
+                                    <p class="cinematic-card-desc">Fault-tolerant cloud architectures, distributed enterprise topologies, and mission-critical multi-region networks.</p>
+                                    <div class="cinematic-card-tags">
+                                        <span class="cinematic-tag">AWS</span>
+                                        <span class="cinematic-tag">Azure</span>
+                                        <span class="cinematic-tag">GCP</span>
+                                        <span class="cinematic-tag">Microservices</span>
+                                    </div>
+                                    <div class="cinematic-card-footer">
+                                        <div class="cinematic-card-meta">
+                                            <span class="cinematic-card-index">04 / 07</span>
+                                            <div class="cinematic-card-progressbar">
+                                                <div class="cinematic-card-progressline" style="width: 57.1%;"></div>
+                                            </div>
+                                        </div>
+                                        <button class="cinematic-card-nextbtn" onclick="event.stopPropagation(); rotateCapabilities(1);" aria-label="Next capability">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
 
-                            <!-- Card 5 (Right-Center Arc) -->
-                            <div class="arc-card arc-card-5" onclick="navigateToTab('courses')">
-                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80" alt="DevOps & SRE Engineer">
-                                <div class="arc-card-overlay">
-                                    <span class="arc-card-role">DevOps &amp; Cloud</span>
-                                    <div class="arc-card-name">CI/CD Pipelines</div>
+                            <!-- Card 4: DevOps & Cloud — CI/CD Pipelines -->
+                            <div class="cinematic-card" data-index="4" onclick="handleCardClick(4)">
+                                <div class="cinematic-card-glass"></div>
+                                <div class="cinematic-card-media">
+                                    <img src="./assets/Core_Disciplines/devops-cloud.jpg" onerror="this.onerror=null; this.src='./nextgen-dma-ventures-v4/nextgen-dma-ventures/assets/Core_Disciplines/devops-cloud.jpg';" alt="DevOps & Cloud — CI/CD Pipelines" class="cinematic-card-img" loading="lazy">
+                                </div>
+                                <div class="cinematic-card-scrim"></div>
+                                
+                                <div class="cinematic-card-header">
+                                    <span class="cinematic-card-pill">
+                                        <i class="fa-solid fa-infinity text-mint text-xs"></i>
+                                        <span>DevOps &bull; CI/CD</span>
+                                    </span>
+                                    <button class="cinematic-card-action" onclick="event.stopPropagation(); navigateToTab('courses');" title="Explore DevOps Curriculum">
+                                        <i class="fa-regular fa-bookmark"></i>
+                                    </button>
+                                </div>
+
+                                <div class="cinematic-card-body">
+                                    <span class="cinematic-card-subtitle">CI/CD Pipelines</span>
+                                    <h3 class="cinematic-card-title">DEVOPS &amp; CLOUD</h3>
+                                    <p class="cinematic-card-desc">Automated continuous integration, infrastructure as code, container orchestration, and zero-downtime releases.</p>
+                                    <div class="cinematic-card-tags">
+                                        <span class="cinematic-tag">Docker</span>
+                                        <span class="cinematic-tag">Kubernetes</span>
+                                        <span class="cinematic-tag">Terraform</span>
+                                        <span class="cinematic-tag">GitOps</span>
+                                    </div>
+                                    <div class="cinematic-card-footer">
+                                        <div class="cinematic-card-meta">
+                                            <span class="cinematic-card-index">05 / 07</span>
+                                            <div class="cinematic-card-progressbar">
+                                                <div class="cinematic-card-progressline" style="width: 71.4%;"></div>
+                                            </div>
+                                        </div>
+                                        <button class="cinematic-card-nextbtn" onclick="event.stopPropagation(); rotateCapabilities(1);" aria-label="Next capability">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
 
-                            <!-- Card 6 (Mid-Right Arc) -->
-                            <div class="arc-card arc-card-6" onclick="navigateToTab('courses')">
-                                <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=500&q=80" alt="Data Intelligence Lead">
-                                <div class="arc-card-overlay">
-                                    <span class="arc-card-role">Data Analytics</span>
-                                    <div class="arc-card-name">Power BI &amp; SQL</div>
+                            <!-- Card 5: Cyber Defense — Ethical Security -->
+                            <div class="cinematic-card" data-index="5" onclick="handleCardClick(5)">
+                                <div class="cinematic-card-glass"></div>
+                                <div class="cinematic-card-media">
+                                    <img src="./assets/Core_Disciplines/data-analytics.jpg" onerror="this.onerror=null; this.src='./nextgen-dma-ventures-v4/nextgen-dma-ventures/assets/Core_Disciplines/data-analytics.jpg';" alt="Cyber Defense — Ethical Security" class="cinematic-card-img" loading="lazy">
+                                </div>
+                                <div class="cinematic-card-scrim"></div>
+                                
+                                <div class="cinematic-card-header">
+                                    <span class="cinematic-card-pill">
+                                        <i class="fa-solid fa-shield-halved text-mint text-xs"></i>
+                                        <span>Cyber Defense</span>
+                                    </span>
+                                    <button class="cinematic-card-action" onclick="event.stopPropagation(); navigateToTab('courses');" title="Explore Cyber Defense Curriculum">
+                                        <i class="fa-regular fa-bookmark"></i>
+                                    </button>
+                                </div>
+
+                                <div class="cinematic-card-body">
+                                    <span class="cinematic-card-subtitle">Ethical Security</span>
+                                    <h3 class="cinematic-card-title">CYBER DEFENSE</h3>
+                                    <p class="cinematic-card-desc">Ethical hacking, proactive penetration testing, SOC operations, threat intelligence, and ISO/NIST compliance.</p>
+                                    <div class="cinematic-card-tags">
+                                        <span class="cinematic-tag">Penetration Testing</span>
+                                        <span class="cinematic-tag">SOC Ops</span>
+                                        <span class="cinematic-tag">Ethical Hacking</span>
+                                        <span class="cinematic-tag">Threat Intel</span>
+                                    </div>
+                                    <div class="cinematic-card-footer">
+                                        <div class="cinematic-card-meta">
+                                            <span class="cinematic-card-index">06 / 07</span>
+                                            <div class="cinematic-card-progressbar">
+                                                <div class="cinematic-card-progressline" style="width: 85.7%;"></div>
+                                            </div>
+                                        </div>
+                                        <button class="cinematic-card-nextbtn" onclick="event.stopPropagation(); rotateCapabilities(1);" aria-label="Next capability">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
 
-                            <!-- Card 7 (Far Right Arc) -->
-                            <div class="arc-card arc-card-7" onclick="navigateToTab('courses')">
-                                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=500&q=80" alt="Cybersecurity Analyst">
-                                <div class="arc-card-overlay">
-                                    <span class="arc-card-role">Cyber Defense</span>
-                                    <div class="arc-card-name">Ethical Security</div>
+                            <!-- Card 6: Data Analytics — Power BI & SQL -->
+                            <div class="cinematic-card" data-index="6" onclick="handleCardClick(6)">
+                                <div class="cinematic-card-glass"></div>
+                                <div class="cinematic-card-media">
+                                    <img src="./assets/Core_Disciplines/cyber-defense.jpg" onerror="this.onerror=null; this.src='./nextgen-dma-ventures-v4/nextgen-dma-ventures/assets/Core_Disciplines/cyber-defense.jpg';" alt="Data Analytics — Power BI & SQL" class="cinematic-card-img" loading="lazy">
+                                </div>
+                                <div class="cinematic-card-scrim"></div>
+                                
+                                <div class="cinematic-card-header">
+                                    <span class="cinematic-card-pill">
+                                        <i class="fa-solid fa-chart-pie text-mint text-xs"></i>
+                                        <span>Data &bull; Business BI</span>
+                                    </span>
+                                    <button class="cinematic-card-action" onclick="event.stopPropagation(); navigateToTab('courses');" title="Explore Data Analytics Curriculum">
+                                        <i class="fa-regular fa-bookmark"></i>
+                                    </button>
+                                </div>
+
+                                <div class="cinematic-card-body">
+                                    <span class="cinematic-card-subtitle">Power BI &amp; SQL</span>
+                                    <h3 class="cinematic-card-title">DATA ANALYTICS</h3>
+                                    <p class="cinematic-card-desc">Actionable business intelligence, advanced relational data modeling, ETL pipelines, and interactive dashboards.</p>
+                                    <div class="cinematic-card-tags">
+                                        <span class="cinematic-tag">Power BI</span>
+                                        <span class="cinematic-tag">Advanced SQL</span>
+                                        <span class="cinematic-tag">DAX Studio</span>
+                                        <span class="cinematic-tag">Data Modeling</span>
+                                    </div>
+                                    <div class="cinematic-card-footer">
+                                        <div class="cinematic-card-meta">
+                                            <span class="cinematic-card-index">07 / 07</span>
+                                            <div class="cinematic-card-progressbar">
+                                                <div class="cinematic-card-progressline" style="width: 100%;"></div>
+                                            </div>
+                                        </div>
+                                        <button class="cinematic-card-nextbtn" onclick="event.stopPropagation(); rotateCapabilities(1);" aria-label="Next capability">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
 
                         </div>
                     </div>
-                </div>
 
-                <!-- Interactive Side Scrollable Path Controls -->
-                <div class="arc-scroll-controls-wrapper">
-                    <div class="arc-scroll-path-bar">
-                        <button class="arc-track-arrow-btn" onclick="scrollArcGallery(-1)" aria-label="Scroll left" id="arc-path-left-btn" title="Scroll left">
-                            <i class="fa-solid fa-arrow-left"></i>
-                        </button>
-                        
-                        <div class="arc-scroll-path-track" id="arc-scroll-path-track" title="Click or drag along the path to scroll">
-                            <div class="arc-scroll-path-thumb" id="arc-scroll-path-thumb"></div>
+                    <!-- Floating Thumbnail Dock (Direct Inspiration from Reference Image 2) -->
+                    <div class="cinematic-dock-wrapper">
+                        <div class="cinematic-dock" id="cinematic-dock">
+                            <button class="cinematic-dock-btn" onclick="rotateCapabilities(-1)" aria-label="Previous capability">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            
+                            <div class="cinematic-dock-items" id="cinematic-dock-items">
+                                <div class="cinematic-dock-item is-active" data-index="0" onclick="setCapabilityActive(0)">
+                                    <div class="cinematic-dock-avatar">
+                                        <img src="./assets/Core_Disciplines/cloud-architect.jpg" alt="Creative Direction">
+                                    </div>
+                                    <span class="cinematic-dock-label">UI/UX</span>
+                                </div>
+                                <div class="cinematic-dock-item" data-index="1" onclick="setCapabilityActive(1)">
+                                    <div class="cinematic-dock-avatar">
+                                        <img src="./assets/Core_Disciplines/fullstack-web.jpg" alt="Full-Stack Web">
+                                    </div>
+                                    <span class="cinematic-dock-label">Web</span>
+                                </div>
+                                <div class="cinematic-dock-item" data-index="2" onclick="setCapabilityActive(2)">
+                                    <div class="cinematic-dock-avatar">
+                                        <img src="./assets/Core_Disciplines/machine-learning.jpg" alt="Machine Learning">
+                                    </div>
+                                    <span class="cinematic-dock-label">AI &amp; ML</span>
+                                </div>
+                                <div class="cinematic-dock-item" data-index="3" onclick="setCapabilityActive(3)">
+                                    <div class="cinematic-dock-avatar">
+                                        <img src="./assets/Core_Disciplines/ui-ux-design.jpg" alt="Cloud Architect">
+                                    </div>
+                                    <span class="cinematic-dock-label">Cloud</span>
+                                </div>
+                                <div class="cinematic-dock-item" data-index="4" onclick="setCapabilityActive(4)">
+                                    <div class="cinematic-dock-avatar">
+                                        <img src="./assets/Core_Disciplines/devops-cloud.jpg" alt="DevOps & Cloud">
+                                    </div>
+                                    <span class="cinematic-dock-label">DevOps</span>
+                                </div>
+                                <div class="cinematic-dock-item" data-index="5" onclick="setCapabilityActive(5)">
+                                    <div class="cinematic-dock-avatar">
+                                        <img src="./assets/Core_Disciplines/data-analytics.jpg" alt="Cyber Defense">
+                                    </div>
+                                    <span class="cinematic-dock-label">Security</span>
+                                </div>
+                                <div class="cinematic-dock-item" data-index="6" onclick="setCapabilityActive(6)">
+                                    <div class="cinematic-dock-avatar">
+                                        <img src="./assets/Core_Disciplines/cyber-defense.jpg" alt="Data Analytics">
+                                    </div>
+                                    <span class="cinematic-dock-label">Data</span>
+                                </div>
+                            </div>
+                            
+                            <button class="cinematic-dock-btn" onclick="rotateCapabilities(1)" aria-label="Next capability">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
                         </div>
-                        
-                        <button class="arc-track-arrow-btn" onclick="scrollArcGallery(1)" aria-label="Scroll right" id="arc-path-right-btn" title="Scroll right">
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </button>
                     </div>
 
-                    <div class="arc-scroll-meta">
-                        <span class="arc-scroll-pill">
-                            <i class="fa-solid fa-arrows-left-right text-mint text-xs"></i>
-                            <span>Scroll or drag side to side</span>
-                        </span>
-                        <span class="arc-scroll-counter" id="arc-scroll-counter">01 / 07</span>
-                    </div>
                 </div>
 
-                <!-- Feature Columns Below the Arc (Matching Reference Layout in Frosted Glass) -->
+                <!-- Feature Columns Below the Carousel (Preserved Layout in Frosted Glass) -->
                 <div class="container mx-auto px-4 lg:px-8 mt-14 pt-10 border-t border-white/10">
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center sm:text-left">
                         
@@ -1373,7 +1640,7 @@
                             <p class="text-slate-600 text-sm mt-1">Real production code, mentor reviews, and dedicated career preparation.</p>
                         </div>
                         <button onclick="navigateToTab('courses')" class="glass-btn-primary self-start md:self-auto">
-                            <span>Browse All 47 Courses</span> <i class="fa-solid fa-arrow-right text-xs"></i>
+                            <span>Browse All 45 Courses</span> <i class="fa-solid fa-arrow-right text-xs"></i>
                         </button>
                     </div>
 
@@ -1412,16 +1679,33 @@
                             </button>
                         </div>
 
-                        <div class="lg:col-span-6">
-                            <div class="grid grid-cols-2 gap-4">
-                                <div class="rounded-3xl overflow-hidden border border-mint/30 shadow-2xl">
-                                    <img src="san.jpeg" onerror="this.onerror=null; this.src='./nextgen-dma-ventures-v4/nextgen-dma-ventures/san.jpeg';" alt="Bangalore Training Hub Campus" class="w-full h-64 object-cover hover:scale-105 transition duration-500">
-                                </div>
-                                <div class="rounded-3xl overflow-hidden border border-mint/30 shadow-2xl flex items-center justify-center p-6 bg-white/5 backdrop-blur-xl">
-                                    <img src="logo.jpeg" onerror="this.onerror=null; this.src='./nextgen-dma-ventures-v4/nextgen-dma-ventures/logo.jpeg';" alt="NEXTGEN Logo Detail" class="w-full max-h-48 object-contain">
-                                </div>
-                            </div>
-                        </div>
+                        
+<div class="lg:col-span-6">
+    <div class="grid grid-cols-2 gap-4 items-stretch">
+
+        <!-- Image 1 -->
+        <div class="h-80 rounded-3xl overflow-hidden border border-mint/30 shadow-2xl">
+            <img
+                src="h1.jpg"
+                onerror="this.onerror=null; this.src='./nextgen-dma-ventures-v4/nextgen-dma-ventures/h1.jpg';"
+                alt="Bangalore Training Hub Campus"
+                class="w-full h-full object-cover block hover:scale-105 transition duration-500"
+            >
+        </div>
+
+        <!-- Image 2 -->
+        <div class="h-80 rounded-3xl overflow-hidden border border-mint/30 shadow-2xl">
+            <img
+                src="h2.jpg"
+                onerror="this.onerror=null; this.src='./nextgen-dma-ventures-v4/nextgen-dma-ventures/h2.jpg';"
+                alt="NextGen Training Team"
+                class="w-full h-full object-cover block hover:scale-105 transition duration-500"
+            >
+        </div>
+
+    </div>
+</div>
+
                     </div>
                 </div>
             </div>
@@ -1448,7 +1732,7 @@
                                     <i class="fa-solid fa-user text-mint-dark"></i>
                                 </div>
                                 <div>
-                                    <div class="font-bold text-xs text-black">Student Alumnus</div>
+                                    <div class="font-bold text-xs text-black">Student Stephen</div>
                                     <div class="text-[10px] font-mono text-slate-500 uppercase">Full Stack Web Development</div>
                                 </div>
                             </div>
@@ -1466,7 +1750,7 @@
                                     <i class="fa-solid fa-user text-mint-dark"></i>
                                 </div>
                                 <div>
-                                    <div class="font-bold text-xs text-black">Student Alumnus</div>
+                                    <div class="font-bold text-xs text-black">Student Priya</div>
                                     <div class="text-[10px] font-mono text-slate-500 uppercase">Artificial Intelligence &amp; ML</div>
                                 </div>
                             </div>
@@ -1484,7 +1768,7 @@
                                     <i class="fa-solid fa-user text-mint-dark"></i>
                                 </div>
                                 <div>
-                                    <div class="font-bold text-xs text-black">Student Alumnus</div>
+                                    <div class="font-bold text-xs text-black">Student Karthik</div>
                                     <div class="text-[10px] font-mono text-slate-500 uppercase">Cloud &amp; DevOps Engineering</div>
                                 </div>
                             </div>
@@ -1525,7 +1809,7 @@
 
 
         <!-- ==========================================
-             TAB 2: ALL 47 COURSES & COMMAND HUB
+             TAB 2: ALL 45 COURSES & COMMAND HUB
              ========================================== -->
         <section id="tab-courses" class="tab-content hidden py-16 bg-white relative">
             <div class="ambient-glow-mint top-10 right-10"></div>
@@ -1536,13 +1820,13 @@
                     <div class="relative z-10 max-w-3xl">
                         <span class="glass-pill mb-4">
                             <span class="w-2 h-2 rounded-full bg-mint animate-pulse"></span>
-                            Official 2026 Curriculum &bull; All 47 Programs &amp; Internships
+                            Official 2026 Curriculum &bull; All 45 Programs &amp; Internships
                         </span>
                         <h1 class="font-display text-4xl sm:text-6xl text-black tracking-tight uppercase leading-none mt-2">
-                            Browse Our <span class="text-mint">47 Professional</span> Courses &amp; Internships
+                            Browse Our <span class="text-mint">45</span> Professional Courses &amp; Internships
                         </h1>
                         <p class="text-slate-600 mt-4 text-sm sm:text-base leading-relaxed font-light">
-                            Explore all 47 industry-aligned career tracks spanning Artificial Intelligence, Full-Stack Engineering, Cloud &amp; Cyber Defense, Design &amp; QA, Mechanical CAD/FEA, Electric Vehicle Automotive Engineering, and Advanced Smart Factory Technologies.
+                            Explore all 45 industry-aligned career tracks spanning Artificial Intelligence, Full-Stack Engineering, Cloud &amp; Cyber Defense, Design &amp; QA, Mechanical CAD/FEA, Electric Vehicle Automotive Engineering, and Advanced Smart Factory Technologies.
                         </p>
 
                         <!-- Key Pillars in Glass -->
@@ -1619,7 +1903,7 @@
                             <button onclick="setCategoryFilter('all')" class="cat-pill active-cat px-3.5 py-2 rounded-xl text-xs font-mono font-bold transition flex items-center gap-2" data-cat="all">
                                 <i class="fa-solid fa-shapes text-mint"></i>
                                 <span>All Categories</span>
-                                <span class="ml-1 px-1.5 py-0.5 rounded-full bg-white/20 text-[10px]">47</span>
+                                <span class="ml-1 px-1.5 py-0.5 rounded-full bg-white/20 text-[10px]">45</span>
                             </button>
                             <button onclick="setCategoryFilter('Artificial Intelligence & Data Technologies')" class="cat-pill px-3.5 py-2 rounded-xl text-xs font-mono font-bold transition flex items-center gap-2" data-cat="Artificial Intelligence & Data Technologies">
                                 <i class="fa-solid fa-brain text-mint"></i>
@@ -1661,7 +1945,7 @@
                         <!-- Live Results Counter -->
                         <div class="text-xs font-mono text-slate-600 flex items-center gap-2 flex-shrink-0">
                             <span class="w-2 h-2 rounded-full bg-mint shadow-xs"></span>
-                            <span>Showing <strong id="courses-count" class="text-black font-extrabold">47</strong> of <strong id="courses-total" class="text-black font-extrabold">47</strong> Programs &amp; Internships</span>
+                            <span>Showing <strong id="courses-count" class="text-black font-extrabold">45</strong> of <strong id="courses-total" class="text-black font-extrabold">45</strong> Programs &amp; Internships</span>
                         </div>
                     </div>
                 </div>
@@ -1734,7 +2018,7 @@
                     <!-- Right Image Block with Glass Caption -->
                     <div class="lg:col-span-6 relative">
                         <div class="relative rounded-3xl overflow-hidden shadow-2xl border border-mint/30">
-                            <img src="san.jpeg" alt="Bangalore State-of-the-Art Training Hub" class="w-full h-[400px] object-cover">
+                            <img src="sam.png" alt="Bangalore State-of-the-Art Training Hub" class="w-full h-[400px] object-cover">
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
                             <div class="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-black/70 backdrop-blur-md border border-mint/30 text-white">
                                 <div class="font-display text-2xl uppercase tracking-wide">Bangalore State-of-the-Art Training Hub</div>
@@ -2039,7 +2323,12 @@
                                     </div>
                                     <div>
                                         <div class="font-bold text-black">Office Location</div>
-                                        <p class="text-slate-600 mt-0.5">HSR Layout, Sector 1, Bangalore, Karnataka - 560102</p>
+                                        <a href="https://www.google.com/maps/search/?api=1&query=HSR+Layout+Sector+1+Bangalore+Karnataka+560102"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="text-slate-600 hover:text-mint-dark mt-0.5 block cursor-pointer">
+   HSR Layout, Sector 1, Bangalore, Karnataka - 560102
+</a>
                                     </div>
                                 </div>
 
@@ -2059,7 +2348,14 @@
                                     </div>
                                     <div>
                                         <div class="font-bold text-black">Admissions Desk</div>
-                                        <a href="mailto:admissions@nextgendma.com" class="text-slate-600 hover:text-mint-dark mt-0.5 block font-mono">admissions@nextgendma.com</a>
+                                        
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=admissions@nextgendma.com"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="text-slate-600 hover:text-mint-dark mt-0.5 block font-mono">
+   admissions@nextgendma.com
+</a>
+
                                     </div>
                                 </div>
 
@@ -2116,37 +2412,65 @@
         <div class="container mx-auto px-4 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-white/10">
                 
-                <!-- Brand Column -->
-                <div class="lg:col-span-5 space-y-4">
-                    <div class="flex items-center gap-3">
-                        <img src="./logo.jpeg" alt="NEXTGEN DMA VENTURES Logo" class="w-14 h-14 object-contain flex-shrink-0">
-                        <div>
-                            <span class="font-display text-2xl text-white tracking-wide">NEXTGEN <span class="text-mint">DMA</span> VENTURES</span>
-                            <div class="font-mono text-[9px] uppercase tracking-widest text-slate-400">Tech Academy &bull; Bangalore</div>
-                        </div>
-                    </div>
-                    <p class="text-xs leading-relaxed max-w-sm text-slate-400 font-light">
-                        NextGen DMA Ventures is a technology-driven learning and innovation company based in Bangalore, India's leading technology hub. We bring together practical tech education, industry-oriented skill development, and digital solution thinking.
-                    </p>
-                    <div class="flex items-center gap-3 pt-2">
-                        <a href="https://linkedin.com" target="_blank" class="w-9 h-9 rounded-full bg-white/10 border border-mint/30 flex items-center justify-center text-white hover:text-black hover:bg-mint transition" aria-label="LinkedIn">
-                            <i class="fa-brands fa-linkedin-in text-xs"></i>
-                        </a>
-                        <a href="https://instagram.com" target="_blank" class="w-9 h-9 rounded-full bg-white/10 border border-mint/30 flex items-center justify-center text-white hover:text-black hover:bg-mint transition" aria-label="Instagram">
-                            <i class="fa-brands fa-instagram text-xs"></i>
-                        </a>
-                        <a href="https://wa.me/919787076296" target="_blank" class="w-9 h-9 rounded-full bg-white/10 border border-mint/30 flex items-center justify-center text-white hover:text-black hover:bg-mint transition" aria-label="WhatsApp">
-                            <i class="fa-brands fa-whatsapp text-xs"></i>
-                        </a>
-                    </div>
-                </div>
+                
+<!-- Brand Column -->
+<div class="lg:col-span-5 space-y-4">
+
+    <a href="#home"
+       onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;"
+       class="flex items-center gap-3 cursor-pointer">
+
+        <img src="./logo.jpeg"
+             onerror="this.onerror=null; this.src='./nextgen-dma-ventures-v4/nextgen-dma-ventures/logo.jpeg';"
+             alt="NEXTGEN DMA VENTURES Logo"
+             class="w-14 h-14 object-contain flex-shrink-0">
+
+        <div>
+            <span class="font-display text-2xl text-white tracking-wide">
+                NEXTGEN <span class="text-mint">DMA</span> VENTURES
+            </span>
+            <div class="font-mono text-[9px] uppercase tracking-widest text-slate-400">
+                Tech Academy &bull; Bangalore
+            </div>
+        </div>
+    </a>
+
+    <p class="text-xs leading-relaxed max-w-sm text-slate-400 font-light">
+        NextGen DMA Ventures is a technology-driven learning and innovation company based in Bangalore, India's leading technology hub. We bring together practical tech education, industry-oriented skill development, and digital solution thinking.
+    </p>
+
+    <div class="flex items-center gap-3 pt-2">
+        <a href="https://linkedin.com" target="_blank"
+           rel="noopener noreferrer"
+           class="w-9 h-9 rounded-full bg-white/10 border border-mint/30 flex items-center justify-center text-white hover:text-black hover:bg-mint transition"
+           aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in text-xs"></i>
+        </a>
+
+        <a href="https://www.instagram.com/nextgen_dma_ventures/"
+           target="_blank" rel="noopener noreferrer"
+           class="w-9 h-9 rounded-full bg-white/10 border border-mint/30 flex items-center justify-center text-white hover:text-black hover:bg-mint transition"
+           aria-label="Instagram">
+            <i class="fa-brands fa-instagram text-xs"></i>
+        </a>
+
+        <a href="https://wa.me/919787076296"
+           target="_blank" rel="noopener noreferrer"
+           class="w-9 h-9 rounded-full bg-white/10 border border-mint/30 flex items-center justify-center text-white hover:text-black hover:bg-mint transition"
+           aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp text-xs"></i>
+        </a>
+    </div>
+
+</div>
+
 
                 <!-- Navigation Links in Glass -->
                 <div class="lg:col-span-3 space-y-3 font-mono">
                     <h4 class="font-display text-base text-mint uppercase tracking-wider">Navigation</h4>
                     <ul class="space-y-2 text-xs">
                         <li><button onclick="navigateToTab('home')" class="hover:text-mint transition">Home</button></li>
-                        <li><button onclick="navigateToTab('courses')" class="hover:text-mint transition">All 47 Courses &amp; Internships</button></li>
+                        <li><button onclick="navigateToTab('courses')" class="hover:text-mint transition">All 45 Courses &amp; Internships</button></li>
                         <li><button onclick="navigateToTab('about')" class="hover:text-mint transition">About Bangalore Hub</button></li>
                         <li><button onclick="navigateToTab('learning')" class="hover:text-mint transition">Learning Approach &amp; FAQ</button></li>
                         <li><button onclick="navigateToTab('contact')" class="hover:text-mint transition">Contact &amp; Support</button></li>
@@ -2156,20 +2480,31 @@
                 <!-- Bangalore Campus -->
                 <div class="lg:col-span-4 space-y-3 text-xs">
                     <h4 class="font-display text-base text-mint uppercase tracking-wider">Bangalore Campus</h4>
-                    <p class="leading-relaxed flex items-start gap-2 text-slate-300">
-                        <i class="fa-solid fa-location-dot text-mint mt-0.5"></i>
-                        <span>HSR Layout, Sector 1, Bangalore, Karnataka - 560102</span>
-                    </p>
+                
+<p class="leading-relaxed flex items-start gap-2 text-slate-300">
+    <i class="fa-solid fa-location-dot text-mint mt-0.5"></i>
+    <a href="https://www.google.com/maps/search/?api=1&query=HSR+Layout%2C+Sector+1%2C+Bangalore%2C+Karnataka+560102"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="hover:text-mint transition-colors">
+        HSR Layout, Sector 1, Bangalore, Karnataka - 560102
+    </a>
+</p>
+
                     <p class="mt-2">
                         <a href="tel:+919787076296" class="hover:text-mint text-slate-300 flex items-center gap-2 font-mono">
                             <i class="fa-solid fa-phone text-mint"></i> +91 9787076296
                         </a>
                     </p>
-                    <p class="mt-2">
-                        <a href="mailto:admissions@nextgendma.com" class="hover:text-mint text-slate-300 flex items-center gap-2 font-mono">
-                            <i class="fa-solid fa-envelope text-mint"></i> admissions@nextgendma.com
-                        </a>
-                    </p>
+                   <p class="mt-2">
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=admissions@nextgendma.com"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="hover:text-mint text-slate-300 flex items-center gap-2 font-mono">
+        <i class="fa-solid fa-envelope text-mint"></i>
+        admissions@nextgendma.com
+    </a>
+</p>
                 </div>
             </div>
 
@@ -2320,7 +2655,11 @@
                         <!-- Year of Study -->
                         <div>
                             <label class="block text-[11px] font-mono text-slate-300 mb-1">Current Year of Study</label>
-                            <select id="book-year" class="glass-input w-full bg-[#172126] cursor-pointer">
+                           <select id="book-year"
+    class="glass-input w-full bg-[#d9d9d9] cursor-pointer"
+    style="color: #b5b5b5;"
+    onchange="this.style.color='#222222'">
+   
                                 <option value="1st Year">1st Year Undergraduate</option>
                                 <option value="2nd Year">2nd Year Undergraduate</option>
                                 <option value="3rd Year">3rd Year Undergraduate</option>
