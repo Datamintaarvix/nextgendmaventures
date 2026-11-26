@@ -1441,8 +1441,12 @@ app.get('/admin', (req, res) => {
   res.sendFile(path.join(staticDir, 'admin.html'));
 });
 
-// Default catch-all route sends to main website
+// Default catch-all route sends to main website for client-side routing,
+// while returning 404 for missing static assets to prevent HTML MIME type errors
 app.get('*', (req, res) => {
+  if (path.extname(req.path)) {
+    return res.status(404).send('Asset not found');
+  }
   res.sendFile(path.join(staticDir, 'index.html'));
 });
 
