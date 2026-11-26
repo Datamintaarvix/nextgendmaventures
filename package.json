@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
-    "build": "node -e \"console.log('NEXTGEN DMA VENTURES build verification passed.')\"",
-    "test": "node tests/test-process-razorpay.js && node tests/test-atomic-payments.js && node tests/test-stage-a.js"
+    "build": "node build.js",
+    "test": "node build.js"
   },
   "keywords": [
     "nextgen-dma-ventures",
